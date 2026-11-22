@@ -1,0 +1,52 @@
+# Feature whitelist for consumption_corr_*.png (NEST UMAR).
+# Applies to thermal heating, thermal cooling, and total-electric heatmaps.
+# One column name per line. '#' starts a comment; blank lines are ignored.
+# Comment out a line to drop that feature from the heatmap. Delete this file
+# to fall back to the embedded default set in visualize_data.py.
+
+# Time / cycles  (raw integers -- easier to interpret asymmetric peaks
+# than sin/cos pairs, where a 19:00 peak hides entirely on hour_cos.)
+is_heating_season
+month
+hour
+day_of_week
+is_business
+is_day
+
+# Air temperature
+temperature_2m
+apparent_temperature
+dew_point_2m
+
+# Atmosphere
+relative_humidity_2m
+cloud_cover
+sunshine_duration
+
+# Radiation
+direct_radiation
+diffuse_radiation
+global_tilted_irradiance
+
+# Wind / pressure / precipitation
+wind_speed_10m
+wind_gusts_10m
+pressure_msl
+rain_precipitation
+snowfall_precipitation
+
+# UMAR local sensors (roof)
+# local_air_temp_c
+# local_solar_rad_wm2
+
+# Indoor (apartment-wide aggregates)
+zone_temp_mean_c
+zone_setpoint_mean_c
+window_open_frac
+valve_open_frac
+
+# Air quality
+pm25
+pm10
+o3
+no2

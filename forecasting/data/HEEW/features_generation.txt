@@ -1,0 +1,61 @@
+# Feature whitelist for generation_corr_pv.png (HEEW / ASU Tempe Campus).
+# One column name per line. '#' starts a comment; blank lines are ignored.
+# Comment out a line to drop that feature from the heatmap. Delete this file
+# to fall back to the embedded default set in visualize_data.py.
+
+# Time / cycles
+hour_cos
+month_cos
+is_day
+is_heating_season
+
+# Radiation
+shortwave_radiation
+direct_radiation
+diffuse_radiation
+global_tilted_irradiance
+direct_normal_irradiance
+terrestrial_radiation
+sunshine_duration
+
+# Sky / cloud
+solar_obstruction_pct
+cloud_cover
+
+# Air temperature
+temperature_2m
+apparent_temperature
+dew_point_2m
+local_air_temp_c
+local_dew_point_c
+
+# Atmosphere
+relative_humidity_2m
+local_rh_pct
+pressure_msl
+surface_pressure
+local_pressure_hpa
+vapour_pressure_deficit
+et0_fao_evapotranspiration
+boundary_layer_height
+
+# Precipitation
+rain_precipitation
+snowfall_precipitation
+local_precip_mm
+
+# Wind
+wind_speed_10m
+wind_speed_100m
+wind_direction_10m
+wind_direction_100m
+wind_gusts_10m
+local_wind_speed_ms
+
+# Air quality
+pm25
+pm10
+o3
+# no2
+# so2
+# co

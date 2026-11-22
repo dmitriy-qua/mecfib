@@ -1,0 +1,69 @@
+# Feature whitelist for consumption_corr_*.png (HEEW / ASU Tempe Campus).
+# Applies to space heating, space cooling, and electric demand heatmaps.
+# One column name per line. '#' starts a comment; blank lines are ignored.
+# Comment out a line to drop that feature from the heatmap. Delete this file
+# to fall back to the embedded default set in visualize_data.py.
+
+# Time / cycles
+hour
+month
+is_heating_season
+month_cos
+hour_cos
+is_business
+is_day
+day_of_week
+season
+
+# Air temperature (on-site NWS + open-meteo canonical)
+temperature_2m
+apparent_temperature
+dew_point_2m
+local_air_temp_c
+local_dew_point_c
+
+# Atmosphere
+relative_humidity_2m
+local_rh_pct
+cloud_cover
+solar_obstruction_pct
+pressure_msl
+surface_pressure
+local_pressure_hpa
+vapour_pressure_deficit
+et0_fao_evapotranspiration
+boundary_layer_height
+
+# Precipitation
+rain_precipitation
+snowfall_precipitation
+local_precip_mm
+
+# Radiation
+shortwave_radiation
+direct_radiation
+diffuse_radiation
+global_tilted_irradiance
+terrestrial_radiation
+sunshine_duration
+
+# Wind
+wind_speed_10m
+wind_speed_100m
+wind_direction_10m
+wind_direction_100m
+wind_gusts_10m
+local_wind_speed_ms
+local_wind_gust_ms
+
+# Air quality
+pm25
+pm10
+o3
+# no2
+# so2
+# co
+
+# Emissions diagnostic (NOT a target; auxiliary for cross-checks)
+# emission_ton
+# total_energy_mmbtu_hr

@@ -1,0 +1,44 @@
+# Feature whitelist for dhw_corr.png (NEST UMAR, domestic hot water).
+# One column name per line. '#' starts a comment; blank lines are ignored.
+# Comment out a line to drop that feature from the heatmap. Delete this file
+# to fall back to the embedded default set in visualize_data.py.
+
+# Time / cycles  (raw integers -- easier to interpret than sin/cos pairs)
+hour
+month
+day_of_week
+is_heating_season
+is_business
+is_day
+
+# Air temperature
+temperature_2m
+apparent_temperature
+local_air_temp_c
+
+# Solar availability
+direct_radiation
+diffuse_radiation
+global_tilted_irradiance
+sunshine_duration
+solar_obstruction_pct
+local_solar_rad_wm2
+
+# Atmosphere
+cloud_cover
+relative_humidity_2m
+wind_speed_10m
+pressure_msl
+rain_precipitation
+snowfall_precipitation
+
+# Indoor / UMAR-specific
+zone_temp_mean_c
+zone_setpoint_mean_c
+dhw_volume_m3h
+valve_open_frac
+
+# Air quality
+pm25
+pm10
+o3

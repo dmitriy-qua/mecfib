@@ -1,0 +1,71 @@
+# Feature whitelist for consumption_corr_dhw_kw.png (KSRP Campus, hot water).
+# One column name per line. '#' starts a comment; blank lines are ignored.
+# Comment out a line to drop that feature from the heatmap. Delete this file
+# to fall back to the embedded default set in visualize_data.py.
+
+# Time / cycles
+hour
+month
+hour_cos
+month_cos
+is_heating_season
+is_business
+is_day
+day_of_week
+season
+
+# Air temperature
+temperature_2m
+apparent_temperature
+dew_point_2m
+# local_air_temp_c
+
+# Solar availability
+# local_solar_rad_wm2
+direct_radiation
+diffuse_radiation
+global_tilted_irradiance
+terrestrial_radiation
+sunshine_duration
+solar_obstruction_pct
+
+# Atmosphere
+relative_humidity_2m
+# local_rh_pct
+cloud_cover
+pressure_msl
+surface_pressure
+vapour_pressure_deficit
+et0_fao_evapotranspiration
+boundary_layer_height
+
+# Precipitation
+rain_precipitation
+snowfall_precipitation
+
+# Wind
+wind_speed_10m
+wind_speed_100m
+wind_direction_10m
+wind_direction_100m
+wind_gusts_10m
+
+# Air quality
+pm25
+pm10
+o3
+no2
+so2
+co
+
+# Indoor environment
+# indoor_air_temp_c
+
+# Water loop
+# district_supply_temp_c
+# district_return_temp_c
+# district_water_flow_m3h
+
+# Heat recovery (early decade only)
+# gas_engine_heat_gjh
+# fuel_cell_heat_gjh

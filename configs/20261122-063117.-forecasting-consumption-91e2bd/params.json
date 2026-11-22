@@ -1,0 +1,27 @@
+{
+ "module": "forecasting.consumption.adaptive.run",
+ "params": {
+  "n_samples": 0,
+  "no_plots": true,
+  "non_adaptive_only": false,
+  "evaluation_frequency": 30,
+  "lang": "en",
+  "seed": 46,
+  "protocol": "clean",
+  "members": "",
+  "mae_threshold": 0,
+  "rmse_threshold": 0,
+  "mase_threshold": 0,
+  "retrain_window": 720,
+  "window_stride_hours": 0,
+  "start_hour_offset": 0,
+  "__modelRunId": "20261121-135154.-training-consumption-70f28c",
+  "no_tft": false
+ },
+ "inputs": [
+  {
+   "path": "forecasting/data/NEST_UMAR/processed/consumption/data_hourly_test.csv",
+   "role": "test"
+  }
+ ]
+}

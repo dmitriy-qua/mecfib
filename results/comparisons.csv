@@ -1,0 +1,157 @@
+dataset,comparison,loss,seeds,relative_difference_pct,ci95_low_pct,ci95_high_pct,diebold_mariano_p
+KSRP_Campus,frozen: ensemble vs GBDT alone,daily absolute loss,5,-9.49613094329834,-11.216436386108398,-7.826728343963623,7.681647504664804e-27
+KSRP_Campus,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-3.6444246768951416,-10.825735092163086,-3.192122220993042,0.0005804209895974
+KSRP_Campus,frozen: zero member added to GBDT,daily absolute loss,5,-8.601265907287598,-10.278804779052734,-6.959732055664063,2.8822065869662617e-22
+KSRP_Campus,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-3.4667611122131348,-10.841767311096191,-2.626692771911621,0.0012347405474667
+KSRP_Campus,frozen: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-0.9790780544281006,-1.327742338180542,-0.6185472011566162,9.300430493271009e-08
+KSRP_Campus,frozen: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.1840412616729736,-1.1129130125045776,0.3662329614162445,0.335744079968432
+KSRP_Campus,frozen: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-2.087580442428589,-3.0667855739593506,-1.081908106803894,9.463037024480078e-05
+KSRP_Campus,frozen: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,0.3531694412231445,-2.0836901664733887,3.430218458175659,0.6180022441532791
+KSRP_Campus,frozen: anchor added to the ensemble,daily absolute loss,5,-3.4595932960510254,-5.006505012512207,-1.8943971395492556,1.8382915594274688e-05
+KSRP_Campus,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-2.1022379398345947,-8.827489852905273,0.7798597812652588,0.0971534834775451
+KSRP_Campus,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-7.566506862640381,-8.961934089660645,-6.2546916007995605,2.944584083665261e-26
+KSRP_Campus,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-3.983521461486816,-10.712854385375977,-4.890983581542969,6.156470861439077e-07
+KSRP_Campus,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,-0.4877534360104296,-1.0201727330850356,0.030916649917744,
+KSRP_Campus,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-3.1462248722829766,-5.840483710238187,-0.2333723146540443,
+KSRP_Campus,retrained: ensemble vs GBDT alone,daily absolute loss,3,-3.48449182510376,-4.657915592193604,-2.393468141555786,4.769393522867964e-09
+KSRP_Campus,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),3,-1.4710187911987305,-5.952036380767822,0.2050942033529281,0.0641581082621529
+KSRP_Campus,retrained: zero member added to GBDT,daily absolute loss,3,-2.5620291233062744,-3.5669727325439453,-1.485369086265564,2.2347398352659486e-06
+KSRP_Campus,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),3,-0.776362419128418,-4.331492424011231,1.273066759109497,0.2843370139590854
+KSRP_Campus,retrained: LSTM-CNN added to GBDT + zero,daily absolute loss,3,-0.9467178583145142,-1.389800786972046,-0.4953705668449402,4.041606587557328e-05
+KSRP_Campus,retrained: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),3,-0.7000923156738281,-2.714246988296509,-0.0850028321146965,0.0350966335511448
+KSRP_Campus,retrained: zero member added to GBDT + LSTM-CNN,daily absolute loss,3,-0.5814754962921143,-1.1150500774383545,-0.0084152501076459,0.0446194955299863
+KSRP_Campus,retrained: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),3,0.3821849822998047,-0.8524584770202637,2.38186264038086,0.34854502736881
+KSRP_Campus,retrained: anchor added to the ensemble,daily absolute loss,3,-4.897924900054932,-6.713650226593018,-3.0530662536621094,7.065869488132483e-07
+KSRP_Campus,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),3,-5.171573162078857,-15.482976913452148,-4.622691631317139,0.0005221696992158
+KSRP_Campus,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,3,-2.919995069503784,-3.806967258453369,-1.9691940546035769,3.932375397426847e-09
+KSRP_Campus,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),3,-1.846146583557129,-6.14153528213501,-1.1357126235961914,0.0064233728835887
+KSRP_Campus,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,3,-1.508214996609214,-2.390728476568428,-0.6567008809339228,
+KSRP_Campus,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,3,-2.752490163406096,-4.944919106432383,-0.596198323400014,
+KSRP_Campus,retrained vs frozen: ensemble,daily absolute loss,3,2.14897894859314,0.3816838264465332,4.116740703582764,0.0246819865579071
+KSRP_Campus,retrained vs frozen: gbdt+zero,daily absolute loss,3,2.111181259155273,0.1670092195272445,4.046739101409912,0.0344695833786792
+KSRP_Campus,retrained vs frozen: gbdt,daily absolute loss,3,-4.229623317718506,-6.285137176513672,-2.068697690963745,8.7603069657795e-05
+KSRP_Campus,frozen ensemble vs retrained GBDT alone,daily absolute loss,3,-5.514955520629883,-7.648579597473144,-3.523313283920288,6.971554364730541e-07
+KSRP_Campus,frozen ensemble vs retrained GBDT + zero,daily absolute loss,3,-3.0305705070495605,-4.917797088623047,-1.152515172958374,0.0018852843678953
+KSRP_Campus,guard vs no guard: ensemble,daily absolute loss,1,5.498426914215088,3.966439962387085,7.253879070281982,1.6772160217731947e-10
+KSRP_Campus,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,-3.195709705352783,-4.587927341461182,-1.842534184455872,1.0955886929922771e-05
+KSRP_Campus,guard vs no guard: gbdt+zero,daily absolute loss,1,5.377467155456543,3.5523977279663086,7.221714496612549,5.797831171586067e-09
+KSRP_Campus,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,-2.978779554367065,-4.384350299835205,-1.569378137588501,4.789220239411929e-05
+KSRP_Campus,guard vs no guard: gbdt,daily absolute loss,1,7.221920967102051,5.324926376342773,9.218899726867676,2.6472497212724576e-13
+KSRP_Campus,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,-10.53839874267578,-12.163322448730469,-8.948161125183105,6.816864022898294e-34
+HEEW,frozen: ensemble vs GBDT alone,daily absolute loss,5,-7.217226982116699,-9.349480628967283,-5.182077884674072,2.848954598799993e-11
+HEEW,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-4.882603645324707,-13.48273754119873,-5.399871826171875,7.2043101837481545e-06
+HEEW,frozen: zero member added to GBDT,daily absolute loss,5,-6.798398971557617,-8.766191482543945,-5.022233963012695,3.7797629320577386e-12
+HEEW,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-4.773479461669922,-12.942368507385254,-5.942224025726318,4.858727048769859e-07
+HEEW,frozen: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-0.4493781328201294,-0.9608352780342102,0.0507910549640655,0.0854134730852257
+HEEW,frozen: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.114595890045166,-1.241173505783081,0.9461106657981871,0.6912341195518689
+HEEW,frozen: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-6.25822114944458,-7.849544048309326,-4.84515380859375,6.293186566892438e-15
+HEEW,frozen: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,-4.569518566131592,-11.769437789916992,-6.595400333404541,2.0376310627557488e-11
+HEEW,frozen: anchor added to the ensemble,daily absolute loss,5,-3.4373505115509038,-4.828895568847656,-2.1032071113586426,6.876277605446113e-07
+HEEW,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-2.0441830158233643,-6.190423011779785,-1.903754711151123,0.0003855681213324
+HEEW,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-1.0230295658111572,-2.083858013153076,-0.0795039385557174,0.0564155096323875
+HEEW,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.3280818462371826,-3.3266873359680176,2.4223201274871826,0.6602589989115812
+HEEW,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,1.0741264752043067,-0.0292117276836303,2.4104822512033626,
+HEEW,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-4.956088227095123,-9.66835197170448,-0.0663513955789997,
+HEEW,retrained: ensemble vs GBDT alone,daily absolute loss,5,-9.503606796264648,-11.796930313110352,-7.323992252349853,1.1315228716450128e-15
+HEEW,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-8.967489242553711,-21.83207321166992,-12.42460823059082,5.266913656761553e-12
+HEEW,retrained: zero member added to GBDT,daily absolute loss,5,-8.585232734680176,-10.69054889678955,-6.662045955657959,5.230245286406918e-16
+HEEW,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-7.9080047607421875,-19.42570686340332,-11.133305549621582,5.0031412418531534e-12
+HEEW,retrained: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-1.0046218633651731,-1.7574881315231323,-0.3049333989620209,0.0082809860132541
+HEEW,retrained: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-1.150459051132202,-3.985763549804688,-0.7127068042755127,0.0064735543529478
+HEEW,retrained: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-5.886530876159668,-7.465267181396484,-4.529077053070068,6.455159500864031e-14
+HEEW,retrained: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,-5.134403705596924,-13.139796257019045,-7.377561569213867,1.5151595946234218e-11
+HEEW,retrained: anchor added to the ensemble,daily absolute loss,5,-1.811102271080017,-2.7650575637817383,-0.8973243832588196,0.0002930807510789
+HEEW,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-1.7990171909332275,-6.138767719268799,-1.2838085889816284,0.0051129695669665
+HEEW,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-3.8433120250701904,-5.280879020690918,-2.3786332607269287,2.408337204506903e-07
+HEEW,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-4.04055118560791,-11.317171096801758,-4.59691333770752,9.308441650108484e-06
+HEEW,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,-0.9901278094785916,-2.344066794446838,0.2717669565166421,
+HEEW,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-7.936822081423223,-11.954419018614766,-4.036725353554395,
+HEEW,retrained vs frozen: ensemble,daily absolute loss,5,2.722778558731079,0.8033896684646606,4.715817451477051,0.0079442251749486
+HEEW,retrained vs frozen: gbdt+zero,daily absolute loss,5,3.2989282608032227,1.228937745094299,5.334214687347412,0.0030684081140124
+HEEW,retrained vs frozen: gbdt,daily absolute loss,5,5.318055152893066,3.352649688720703,7.265244007110596,3.563921085640095e-07
+HEEW,frozen ensemble vs retrained GBDT alone,daily absolute loss,5,-11.902311325073242,-14.544139862060549,-9.468536376953123,8.063486686212215e-20
+HEEW,frozen ensemble vs retrained GBDT + zero,daily absolute loss,5,-3.6286022663116455,-5.825681209564209,-1.6205915212631226,0.0010001422817357
+HEEW,guard vs no guard: ensemble,daily absolute loss,1,0.7429661750793457,-0.8368985652923584,2.3035056591033936,0.3632514745136164
+HEEW,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,2.798769235610962,0.4412033855915069,5.119678020477295,0.0289578872878
+HEEW,guard vs no guard: gbdt+zero,daily absolute loss,1,-0.3993923664093017,-2.575916051864624,1.72976815700531,0.7286292483841964
+HEEW,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,5.033212661743164,1.9922213554382324,8.069493293762207,0.0018590620887681
+HEEW,guard vs no guard: gbdt,daily absolute loss,1,1.9511126279830933,-0.2177467048168182,3.984345436096192,0.0828153831184849
+HEEW,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,6.104441642761231,3.174436569213867,8.909530639648438,6.757797042352216e-05
+Building_59,frozen: ensemble vs GBDT alone,daily absolute loss,5,-11.243454933166504,-18.682348251342773,-5.0673441886901855,0.0005924294554776
+Building_59,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-7.313471794128418,-32.855995178222656,0.9417718052864076,0.0828305826021404
+Building_59,frozen: zero member added to GBDT,daily absolute loss,5,-10.69833755493164,-17.48891830444336,-4.375975131988525,0.0011550752118945
+Building_59,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-7.306796073913574,-32.33104705810547,1.3848735094070437,0.0855542438653021
+Building_59,frozen: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-0.6104230880737305,-1.3164095878601074,0.3892228305339813,0.185924928149605
+Building_59,frozen: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.0072002410888671,-1.1424343585968018,1.4058502912521362,0.9827692173210324
+Building_59,frozen: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-7.632864952087402,-14.357322692871094,-1.927585244178772,0.0111296419457171
+Building_59,frozen: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,-5.880766868591309,-28.69927978515625,1.733856439590454,0.133230809906679
+Building_59,frozen: anchor added to the ensemble,daily absolute loss,5,-8.469649314880371,-15.37312126159668,-3.0931620597839355,0.0081380977880891
+Building_59,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-5.924749374389648,-20.69933319091797,-3.759706258773804,0.0136325415031812
+Building_59,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-3.908954381942749,-6.36376428604126,-1.2964166402816772,0.0030796127662975
+Building_59,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-1.522219181060791,-8.162590026855469,2.6552419662475586,0.2718530548803702
+Building_59,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,0.1057894044951934,-0.5266918889720876,0.8254668369854082,
+Building_59,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-6.961312137333408,-22.001658375809665,4.245819646644563,
+Building_59,retrained: ensemble vs GBDT alone,daily absolute loss,5,0.550015389919281,-1.967910647392273,3.2237086296081543,0.6729281551746324
+Building_59,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,0.7933974266052246,-2.2201921939849854,6.133026599884033,0.4524586959441521
+Building_59,retrained: zero member added to GBDT,daily absolute loss,5,0.5012243390083313,-1.4976648092269895,2.509238719940185,0.640686431386408
+Building_59,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),5,0.747215747833252,-1.7314592599868774,5.354427814483643,0.4151457083835538
+Building_59,retrained: LSTM-CNN added to GBDT + zero,daily absolute loss,5,0.0485478714108467,-1.1772841215133667,1.1435201168060305,0.932425209636466
+Building_59,retrained: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,0.0458359718322753,-1.8846557140350344,1.9680309295654297,0.9220854439656488
+Building_59,retrained: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,0.6450549364089966,-1.013753056526184,2.3882524967193604,0.4544693887807836
+Building_59,retrained: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,0.7687687873840332,-1.2634918689727783,4.82620096206665,0.326963053120243
+Building_59,retrained: anchor added to the ensemble,daily absolute loss,5,-7.008403778076172,-12.822019577026367,-2.536421775817871,0.0074788081141514
+Building_59,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-4.241055488586426,-16.0916690826416,-2.160998821258545,0.0257182733467044
+Building_59,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-0.0944301709532737,-1.897655248641968,1.6747024059295654,0.9186551445826132
+Building_59,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,0.0244379043579101,-3.051060914993286,3.187555313110352,0.9751752964683544
+Building_59,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,-0.2247036189109152,-1.5810350243886384,0.9984557075849048,
+Building_59,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,0.2150983021937502,-2.733379283386401,3.472810534759444,
+Building_59,retrained vs frozen: ensemble,daily absolute loss,5,1.7265727519989014,-3.2224113941192627,6.273749828338623,0.4840129454355067
+Building_59,retrained vs frozen: gbdt+zero,daily absolute loss,5,1.056548833847046,-3.783833980560303,5.831925868988037,0.6847458382139131
+Building_59,retrained vs frozen: gbdt,daily absolute loss,5,-10.204895973205566,-18.04865074157715,-2.4723455905914307,0.0083793378604901
+Building_59,frozen ensemble vs retrained GBDT alone,daily absolute loss,5,-1.1565876007080078,-5.438321113586426,3.504140853881836,0.623886383985742
+Building_59,frozen ensemble vs retrained GBDT + zero,daily absolute loss,5,-1.6495438814163208,-6.489217281341553,3.3013832569122314,0.5104721566888891
+Building_59,guard vs no guard: ensemble,daily absolute loss,1,-8.56611156463623,-12.47221851348877,-5.026244640350342,1.1549819648711492e-05
+Building_59,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,11.219952583312988,6.624438285827637,16.094961166381836,2.6500217685462988e-06
+Building_59,guard vs no guard: gbdt+zero,daily absolute loss,1,-9.266790390014648,-13.165918350219728,-5.518301963806152,5.645913802765268e-06
+Building_59,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,11.844229698181152,7.2496657371521,16.879714965820312,1.8300259058117664e-06
+Building_59,guard vs no guard: gbdt,daily absolute loss,1,-9.78203010559082,-13.940866470336914,-6.038873195648193,1.3212507199241566e-06
+Building_59,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,0.0530180968344211,-7.301888465881348,7.413753509521484,0.9885206498556708
+NEST_UMAR,frozen: ensemble vs GBDT alone,daily absolute loss,5,-8.469722747802734,-10.381302833557127,-6.299487590789795,6.089127040965032e-16
+NEST_UMAR,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.4305183887481689,-2.15860366821289,0.681419312953949,0.2569425014194336
+NEST_UMAR,frozen: zero member added to GBDT,daily absolute loss,5,-8.989556312561035,-10.93525218963623,-6.8210296630859375,9.820192423977601e-17
+NEST_UMAR,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-0.4787206649780273,-2.112423896789551,0.603724479675293,0.1949791762550664
+NEST_UMAR,frozen: LSTM-CNN added to GBDT + zero,daily absolute loss,5,0.5711811184883118,0.1503786146640777,0.9262850880622864,0.0045224090909922
+NEST_UMAR,frozen: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,0.0484347343444824,-0.3688864409923553,0.5861101150512695,0.705386081812497
+NEST_UMAR,frozen: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-8.601356506347656,-10.41230583190918,-6.688519477844238,5.7099952195732436e-18
+NEST_UMAR,frozen: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,-0.915074348449707,-3.165097713470459,-0.2681646645069122,0.0211580341518823
+NEST_UMAR,frozen: anchor added to the ensemble,daily absolute loss,5,-2.9501936435699463,-6.443868637084961,-0.4268877506256103,0.0565562961065032
+NEST_UMAR,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-0.6820559501647949,-2.7909183502197266,-0.3063311576843261,0.0479813921812287
+NEST_UMAR,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,0.1440226435661316,-0.5905370712280273,0.8094346523284912,0.686284611221505
+NEST_UMAR,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,0.4890322685241699,0.2615118622779846,1.8452752828598025,0.0195659003125684
+NEST_UMAR,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,0.4252753810701337,0.006333960062983,1.0390185996481585,
+NEST_UMAR,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-2.9891411726886585,-5.229692964609527,-0.2865260479577738,
+NEST_UMAR,retrained: ensemble vs GBDT alone,daily absolute loss,5,-5.159904956817627,-6.684460163116455,-3.818997859954834,1.1230620761737952e-11
+NEST_UMAR,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.5207300186157227,-1.6154980659484863,-0.4642585217952728,0.0007087295480056
+NEST_UMAR,retrained: zero member added to GBDT,daily absolute loss,5,-3.3273465633392334,-4.575486183166504,-2.188568592071533,1.47278190760055e-07
+NEST_UMAR,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-0.1150488853454589,-0.6288313865661621,0.1654849499464035,0.2485703530028301
+NEST_UMAR,retrained: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-1.8956319093704224,-2.7232017517089844,-1.2431681156158447,1.172840244498694e-06
+NEST_UMAR,retrained: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.4061520099639892,-1.2459146976470947,-0.3711968660354614,0.0004490032527379
+NEST_UMAR,retrained: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-1.657304286956787,-2.542083740234375,-0.9287519454956056,6.482813280082297e-05
+NEST_UMAR,retrained: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,0.0223875045776367,-0.2647682130336761,0.3790033459663391,0.7836175487104251
+NEST_UMAR,retrained: anchor added to the ensemble,daily absolute loss,5,-4.182993412017822,-7.318510055541992,-1.6379700899124146,0.0077159420793554
+NEST_UMAR,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-0.9005486965179443,-3.144554615020752,-0.7164528965950012,0.0084154304559044
+NEST_UMAR,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-3.56162691116333,-4.914883136749268,-2.456737279891968,2.1283565435499883e-08
+NEST_UMAR,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.5430042743682861,-1.570726752281189,-0.5551264882087708,8.53401518654601e-05
+NEST_UMAR,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,-1.0376027497998153,-2.4729121061695403,0.0249747283934572,
+NEST_UMAR,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-2.6481400109316544,-4.8271150610350775,-1.0558090496961643,
+NEST_UMAR,retrained vs frozen: ensemble,daily absolute loss,5,-0.0160995088517665,-0.926602303981781,0.9088068008422852,0.9722497370154884
+NEST_UMAR,retrained vs frozen: gbdt+zero,daily absolute loss,5,2.497973680496216,1.4770474433898926,3.671478271484375,2.4257255790925687e-05
+NEST_UMAR,retrained vs frozen: gbdt,daily absolute loss,5,-3.5054311752319336,-5.406382083892822,-1.1930782794952393,0.0023821139809905
+NEST_UMAR,frozen ensemble vs retrained GBDT alone,daily absolute loss,5,-5.144633769989014,-6.772047996520996,-3.75710654258728,4.260779668115989e-10
+NEST_UMAR,frozen ensemble vs retrained GBDT + zero,daily absolute loss,5,-1.8798348903656008,-3.089096784591675,-0.8457853198051453,0.0012608681707375
+NEST_UMAR,guard vs no guard: ensemble,daily absolute loss,1,-3.964712142944336,-7.087040901184082,-1.592221736907959,0.0049782732876287
+NEST_UMAR,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,4.008881092071533,1.343110203742981,7.642051696777344,0.0110638058692302
+NEST_UMAR,guard vs no guard: gbdt+zero,daily absolute loss,1,-5.864108562469482,-8.697819709777832,-3.660123586654663,6.032427474897873e-06
+NEST_UMAR,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,8.948254585266113,6.547226905822754,12.40499210357666,3.131934369889296e-09
+NEST_UMAR,guard vs no guard: gbdt,daily absolute loss,1,-91.37535858154295,-201.10321044921875,-24.590770721435547,0.0641251557517773
+NEST_UMAR,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,1020.9138793945312,268.0450744628906,2242.967529296875,0.0649750226018993

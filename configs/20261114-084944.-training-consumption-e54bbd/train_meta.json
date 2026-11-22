@@ -1,0 +1,7 @@
+{
+ "sequence_length": 168,
+ "forecast_horizon": 24,
+ "seed": 43,
+ "protocol": "clean",
+ "code_sha256": "41997f8780069cd9"
+}

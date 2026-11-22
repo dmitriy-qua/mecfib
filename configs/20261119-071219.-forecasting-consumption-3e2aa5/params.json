@@ -1,0 +1,32 @@
+{
+ "module": "forecasting.consumption.adaptive.run",
+ "params": {
+  "n_samples": 0,
+  "no_plots": true,
+  "non_adaptive_only": false,
+  "evaluation_frequency": 30,
+  "lang": "en",
+  "seed": 45,
+  "protocol": "clean",
+  "members": "",
+  "mae_threshold": 0,
+  "rmse_threshold": 0,
+  "mase_threshold": 0,
+  "retrain_window": 720,
+  "window_stride_hours": 0,
+  "start_hour_offset": 0,
+  "__modelRunId": "20261114-084933.-training-consumption-f2e003",
+  "no_tft": true,
+  "weights_mode": "rolling",
+  "roll_window": 42,
+  "trigger": "scheduled",
+  "retrain_accept": true,
+  "gbdt_retrain_mode": "auto"
+ },
+ "inputs": [
+  {
+   "path": "forecasting/data/Building_59/processed/consumption/data_hourly_test.csv",
+   "role": "test"
+  }
+ ]
+}

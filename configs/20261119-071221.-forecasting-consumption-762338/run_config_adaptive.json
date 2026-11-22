@@ -1,0 +1,613 @@
+{
+ "scenario": "Adaptive",
+ "non_adaptive": false,
+ "seed": 42,
+ "code_sha256": "372c483a9324f0c6",
+ "device": "cuda",
+ "csv_path": "forecasting/data/HEEW/processed/consumption/data_hourly_test.csv",
+ "model_dir": "runs/20261114-084939.-training-consumption-1c8b44",
+ "targets": [
+  "thermal_heating_kw",
+  "thermal_cooling_kw",
+  "electric_demand_kw"
+ ],
+ "has_tft": false,
+ "sequence_length": 168,
+ "forecast_horizon": 24,
+ "stride_hours": 24,
+ "start_hour_offset": 0,
+ "n_windows": 1454,
+ "n_retrains": 3,
+ "retrain_events": [
+  {
+   "retrain_no": 1,
+   "after_window": 364,
+   "forecast_start": "2020-01-07 00:00:00",
+   "history_from": "2019-01-07 00:00:00",
+   "history_rows": 8760,
+   "reasons": [
+    "scheduled"
+   ],
+   "holdout": true,
+   "fit_rows": 7008,
+   "holdout_rows": 1752,
+   "weights_retuned": true,
+   "accept": {
+    "lstm:thermal_heating_kw": {
+     "old_mae": 198.70602257948963,
+     "new_mae": 179.82370197615293,
+     "kept_new": true
+    },
+    "lstm:thermal_cooling_kw": {
+     "old_mae": 1732.2817435359873,
+     "new_mae": 1841.190973543111,
+     "kept_new": false
+    },
+    "lstm:electric_demand_kw": {
+     "old_mae": 1721.8950393389694,
+     "new_mae": 1593.1105510933933,
+     "kept_new": true
+    },
+    "gbdt:thermal_heating_kw": {
+     "old_mae": 107.33004311597287,
+     "new_mae": 105.2035779741544,
+     "refit_mae": 118.55238115282438,
+     "chosen": "boost",
+     "kept_new": true
+    },
+    "gbdt:thermal_cooling_kw": {
+     "old_mae": 914.9351601869117,
+     "new_mae": 890.4735122644468,
+     "refit_mae": 1052.2591861936703,
+     "chosen": "boost",
+     "kept_new": true
+    },
+    "gbdt:electric_demand_kw": {
+     "old_mae": 799.5639441456138,
+     "new_mae": 950.9392508915663,
+     "refit_mae": 1384.7088296828697,
+     "chosen": "old",
+     "kept_new": false
+    }
+   }
+  },
+  {
+   "retrain_no": 2,
+   "after_window": 729,
+   "forecast_start": "2021-01-06 00:00:00",
+   "history_from": "2020-01-07 00:00:00",
+   "history_rows": 8760,
+   "reasons": [
+    "scheduled"
+   ],
+   "holdout": true,
+   "fit_rows": 7008,
+   "holdout_rows": 1752,
+   "weights_retuned": true,
+   "accept": {
+    "lstm:thermal_heating_kw": {
+     "old_mae": 377.24971125081686,
+     "new_mae": 335.6125391056674,
+     "kept_new": true
+    },
+    "lstm:thermal_cooling_kw": {
+     "old_mae": 1616.5986195455444,
+     "new_mae": 1761.2417373719534,
+     "kept_new": false
+    },
+    "lstm:electric_demand_kw": {
+     "old_mae": 1806.7204907204266,
+     "new_mae": 1746.178614150792,
+     "kept_new": true
+    },
+    "gbdt:thermal_heating_kw": {
+     "old_mae": 131.0793940973477,
+     "new_mae": 250.47721316447078,
+     "refit_mae": 127.34866070576267,
+     "chosen": "refit",
+     "kept_new": true
+    },
+    "gbdt:thermal_cooling_kw": {
+     "old_mae": 1260.7628340696474,
+     "new_mae": 1468.5983709816903,
+     "refit_mae": 2650.4305289034687,
+     "chosen": "old",
+     "kept_new": false
+    },
+    "gbdt:electric_demand_kw": {
+     "old_mae": 1509.690847152895,
+     "new_mae": 1486.124896937011,
+     "refit_mae": 1694.2645302765445,
+     "chosen": "boost",
+     "kept_new": true
+    }
+   }
+  },
+  {
+   "retrain_no": 3,
+   "after_window": 1094,
+   "forecast_start": "2022-01-06 00:00:00",
+   "history_from": "2021-01-06 00:00:00",
+   "history_rows": 8760,
+   "reasons": [
+    "scheduled"
+   ],
+   "holdout": true,
+   "fit_rows": 7008,
+   "holdout_rows": 1752,
+   "weights_retuned": true,
+   "accept": {
+    "lstm:thermal_heating_kw": {
+     "old_mae": 148.94071222083826,
+     "new_mae": 141.2389570994206,
+     "kept_new": true
+    },
+    "lstm:thermal_cooling_kw": {
+     "old_mae": 1419.4346109079338,
+     "new_mae": 1731.3821872368167,
+     "kept_new": false
+    },
+    "lstm:electric_demand_kw": {
+     "old_mae": 1574.59148849975,
+     "new_mae": 1838.8731287858518,
+     "kept_new": false
+    },
+    "gbdt:thermal_heating_kw": {
+     "old_mae": 210.5840694718808,
+     "new_mae": 133.81357557046076,
+     "refit_mae": 117.83382710750146,
+     "chosen": "refit",
+     "kept_new": true
+    },
+    "gbdt:thermal_cooling_kw": {
+     "old_mae": 1268.4686792735483,
+     "new_mae": 970.0800863136807,
+     "refit_mae": 1835.024042730225,
+     "chosen": "boost",
+     "kept_new": true
+    },
+    "gbdt:electric_demand_kw": {
+     "old_mae": 1188.6612827862862,
+     "new_mae": 1200.036781771277,
+     "refit_mae": 1336.2907426570075,
+     "chosen": "old",
+     "kept_new": false
+    }
+   }
+  }
+ ],
+ "weights_history": [
+  {
+   "after_window": -1,
+   "event": "initial",
+   "weights": {
+    "thermal_heating_kw": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "thermal_cooling_kw": [
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05,
+     0.05
+    ],
+    "electric_demand_kw": [
+     0.0,
+     0.05,
+     0.05,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1
+    ]
+   }
+  },
+  {
+   "after_window": 364,
+   "event": "retrain",
+   "weights": {
+    "thermal_heating_kw": [
+     0.0,
+     0.0,
+     0.0,
+     0.05,
+     0.05,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.2
+    ],
+    "thermal_cooling_kw": [
+     0.05,
+     0.05,
+     0.05,
+     0.15000000000000002,
+     0.15000000000000002,
+     0.15000000000000002,
+     0.15000000000000002,
+     0.2,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004
+    ],
+    "electric_demand_kw": [
+     0.0,
+     0.0,
+     0.0,
+     0.05,
+     0.05,
+     0.05,
+     0.15000000000000002,
+     0.2,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25
+    ]
+   }
+  },
+  {
+   "after_window": 729,
+   "event": "retrain",
+   "weights": {
+    "thermal_heating_kw": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.05,
+     0.15000000000000002,
+     0.25,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004
+    ],
+    "thermal_cooling_kw": [
+     0.0,
+     0.0,
+     0.0,
+     0.1,
+     0.15000000000000002,
+     0.2,
+     0.2,
+     0.25,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.4,
+     0.45,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "electric_demand_kw": [
+     0.0,
+     0.0,
+     0.0,
+     0.15000000000000002,
+     0.2,
+     0.2,
+     0.2,
+     0.2,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.4,
+     0.45,
+     0.45,
+     0.45,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "after_window": 1094,
+   "event": "retrain",
+   "weights": {
+    "thermal_heating_kw": [
+     0.05,
+     0.1,
+     0.15000000000000002,
+     0.15000000000000002,
+     0.2,
+     0.2,
+     0.25,
+     0.25,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.35000000000000003,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.4,
+     0.5,
+     0.5,
+     0.55,
+     0.55,
+     0.55,
+     0.55
+    ],
+    "thermal_cooling_kw": [
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.1,
+     0.2,
+     0.2,
+     0.25,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003,
+     0.35000000000000003
+    ],
+    "electric_demand_kw": [
+     0.0,
+     0.05,
+     0.1,
+     0.1,
+     0.1,
+     0.15000000000000002,
+     0.25,
+     0.25,
+     0.25,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.30000000000000004,
+     0.4,
+     0.4,
+     0.4
+    ]
+   }
+  }
+ ],
+ "effective_args": {
+  "lstm_model_name": "lstm_cnn_consumption",
+  "gbdt_model_prefix": "xgb_consumption",
+  "tft_model_prefix": "tft_consumption",
+  "model_base_dir": "runs/20261114-084939.-training-consumption-1c8b44",
+  "weights": {
+   "thermal_heating_kw": [
+    0.3,
+    0.7,
+    0.0
+   ],
+   "thermal_cooling_kw": [
+    0.3,
+    0.7,
+    0.0
+   ],
+   "dhw_kw": [
+    0.3,
+    0.7,
+    0.0
+   ],
+   "electric_demand_kw": [
+    0.3,
+    0.7,
+    0.0
+   ]
+  },
+  "use_horizon_weights": true,
+  "sequence_length": 168,
+  "forecast_horizon": 24,
+  "start_index": 168,
+  "non_adaptive": false,
+  "plot_interval": 25,
+  "save_plots": false,
+  "plots_dir": "plots",
+  "mae_threshold": 1623.9669082458167,
+  "rmse_threshold": 1880.9468059012424,
+  "mase_threshold": null,
+  "min_retrain_samples": 500,
+  "retrain_window": 8760,
+  "evaluation_frequency": 365,
+  "max_retrains": 20,
+  "peak_weight_alpha": 0.5,
+  "peak_threshold": 0.3,
+  "loss_type": "huber",
+  "huber_delta": 0.15,
+  "under_weight_heating": 1.0,
+  "under_weight_other": 1.0,
+  "min_target_fraction": 0.02,
+  "base_health_window": 50,
+  "base_health_ratio": 6.0,
+  "naive_anchor_weights": {},
+  "per_target_mase_threshold": {},
+  "seed": 42,
+  "inactivity_gates": {
+   "thermal_heating_kw": {
+    "lookback_hours": 24,
+    "threshold_kw": 50.0
+   },
+   "thermal_cooling_kw": {
+    "lookback_hours": 24,
+    "threshold_kw": 50.0
+   }
+  },
+  "apply_seasonal_gate": false,
+  "training_hyperparams": {
+   "lstm_cnn": {
+    "thermal_cooling_kw": {}
+   },
+   "gbdt": {
+    "thermal_heating_kw": {},
+    "thermal_cooling_kw": {},
+    "electric_demand_kw": {}
+   },
+   "tft": {
+    "thermal_cooling_kw": {}
+   }
+  },
+  "members": "lstm,gbdt",
+  "weights_dir_name": "weights_2way",
+  "protocol": "clean",
+  "anchor_mode": "causal",
+  "retune_holdout_frac": 0.2,
+  "retrain_accept": true,
+  "weight_retune": true,
+  "gbdt_retrain_mode": "auto",
+  "weights_mode": "rolling",
+  "roll_window": 42,
+  "roll_min_windows": 14,
+  "roll_blocks": 0,
+  "weather_noise": 0.0,
+  "floor_source": "validation",
+  "trigger_mode": "scheduled",
+  "trigger_stat": "block_mean",
+  "threshold_factor": 1.5
+ }
+}

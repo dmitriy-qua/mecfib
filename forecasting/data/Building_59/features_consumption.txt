@@ -1,0 +1,54 @@
+# Feature whitelist for consumption_corr_*.png (LBNL Building 59).
+# Applies to the HVAC-heating, HVAC-cooling, and plug+lighting electric
+# heatmaps. One column name per line. '#' starts a comment; blank lines are
+# ignored. Comment out a line to drop that feature from the heatmap. Delete
+# this file to fall back to the embedded default set in visualize_data.py.
+
+# Time / cycles  (raw integers -- easier to interpret asymmetric peaks than
+# sin/cos pairs, where a 19:00 peak hides entirely on hour_cos.)
+is_heating_season
+month
+hour
+day_of_week
+is_business
+is_day
+
+# Air temperature
+temperature_2m
+apparent_temperature
+dew_point_2m
+# local_air_temp_c
+
+# Atmosphere
+relative_humidity_2m
+local_rh_pct
+cloud_cover
+sunshine_duration
+
+# Radiation
+shortwave_radiation
+direct_radiation
+diffuse_radiation
+global_tilted_irradiance
+# local_solar_rad_wm2
+
+# Wind / pressure / precipitation
+wind_speed_10m
+wind_gusts_10m
+pressure_msl
+rain_precipitation
+
+# Indoor (zone-wide aggregates)
+# zone_cooling_sp_c
+# zone_heating_sp_c
+# zone_co2_mean_ppm
+
+# Occupancy proxies
+# occupant_count
+# wifi_device_count
+
+# Air quality
+pm25
+pm10
+o3
+no2
