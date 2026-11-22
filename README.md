@@ -2,7 +2,7 @@
 
 Adaptive multi-energy hybrid ensemble for short-term forecasting of heating, cooling, domestic hot water (DHW) and electricity in buildings.
 
-Code, data and run configurations for the article *"Adaptive multi-energy hybrid ensemble for short-term forecasting of heating, cooling, DHW, and electricity in buildings"* (D. Karpenko, submitted to *Thermal Science and Engineering Progress*).
+Code, data and run configurations for the article *"Adaptive multi-energy hybrid ensemble for short-term forecasting of heating, cooling, DHW, and electricity in buildings"* (D. Karpenko, submitted to *Energy Reports*).
 
 The forecaster issues, at 00:00 of each day, hourly forecasts for the next 24 hours of every energy channel of a site. Two base learners, a gradient-boosted tree model (XGBoost) and an LSTM-CNN, are trained per channel (a Temporal Fusion Transformer is optional). Their forecasts are combined with a zero forecast by weights that are re-chosen for every day and forecast hour from the errors of the previous 42 days, then blended with the weekly naive forecast by a causal anchor. Periodic retraining with a hold-out guard is available as an option.
 
