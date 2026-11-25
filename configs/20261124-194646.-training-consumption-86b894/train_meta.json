@@ -1,0 +1,8 @@
+{
+  "sequence_length": 168,
+  "forecast_horizon": 24,
+  "seed": 45,
+  "protocol": "clean",
+  "models_from": "",
+  "code_sha256": "1bab7aa1aec75087"
+}

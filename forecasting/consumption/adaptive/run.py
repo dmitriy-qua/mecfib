@@ -275,7 +275,9 @@ def run_scenario(data: pd.DataFrame, non_adaptive: bool, label: str,
         args.members = members
         _m = {x.strip() for x in members.split(',') if x.strip()}
         if _m == {'lstm', 'gbdt'} and model_dir:
-            if os.path.isdir(os.path.join(model_dir, 'transformer')):
+            _tdir = os.path.join(model_dir, 'transformer')
+            # an empty transformer/ folder (training with skip_transformer) is a two-head checkpoint
+            if os.path.isdir(_tdir) and os.listdir(_tdir):
                 w2 = os.path.join(model_dir, 'weights_2way', 'weights_per_horizon.json')
                 if not os.path.exists(w2):
                     raise FileNotFoundError(

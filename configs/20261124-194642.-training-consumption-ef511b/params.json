@@ -1,0 +1,52 @@
+{
+  "module": "forecasting.consumption.train_pipeline",
+  "params": {
+    "targets": [
+      "thermal_heating_kw",
+      "thermal_cooling_kw",
+      "electric_demand_kw"
+    ],
+    "features": "season,is_business,is_heating_season,hour_cos,month_cos,dow_cos,hour_sin,month_sin,dow_sin,temperature_2m,relative_humidity_2m,dew_point_2m,apparent_temperature,rain_precipitation,snowfall_precipitation,pressure_msl,surface_pressure,cloud_cover,et0_fao_evapotranspiration,vapour_pressure_deficit,wind_speed_10m,wind_speed_100m,wind_direction_10m,wind_direction_100m,wind_gusts_10m,boundary_layer_height,sunshine_duration,shortwave_radiation,direct_radiation,diffuse_radiation,global_tilted_irradiance,terrestrial_radiation,direct_normal_irradiance,is_day,solar_obstruction_pct",
+    "sequence_length": 168,
+    "forecast_horizon": 24,
+    "seed": 42,
+    "protocol": "clean",
+    "lstm_epochs": 100,
+    "lstm_patience": 10,
+    "lstm_warmup_epochs": 20,
+    "lstm_batch_size": 32,
+    "lstm_learning_rate": 0.001,
+    "lstm_hidden_dim": 128,
+    "lstm_dropout": 0.2,
+    "gbdt_n_estimators": 15000,
+    "gbdt_max_depth": 6,
+    "gbdt_learning_rate": 0.008,
+    "gbdt_subsample": 0.96,
+    "gbdt_colsample_bytree": 0.99,
+    "gbdt_reg_alpha": 0.26,
+    "gbdt_reg_lambda": 0.23,
+    "gbdt_min_child_weight": 6,
+    "gbdt_early_stopping_rounds": 5000,
+    "skip_transformer": true,
+    "tft_epochs": 80,
+    "tft_patience": 8,
+    "tft_warmup_epochs": 5,
+    "tft_batch_size": 16,
+    "tft_learning_rate": 0.0005,
+    "tft_hidden_dim": 160,
+    "tft_n_heads": 8,
+    "tft_lstm_layers": 2,
+    "tft_dropout": 0.1,
+    "lang": "en"
+  },
+  "inputs": [
+    {
+      "path": "forecasting/data/HEEW/processed/consumption/data_hourly_train.csv",
+      "role": "train"
+    },
+    {
+      "path": "forecasting/data/HEEW/processed/consumption/data_hourly_test.csv",
+      "role": "test"
+    }
+  ]
+}

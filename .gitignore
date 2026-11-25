@@ -4,3 +4,4 @@ runs/
 .venv/
 .idea/
 .vscode/
+forecasting/data/*/processed/consumption/_uncorrected/

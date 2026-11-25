@@ -1,150 +1,37 @@
 run,kind,dataset,seed,configuration,training_run,test_days,retrains
-20261114-084929.-training-consumption-229800,training,Building_59,42,training of the base learners,,,
-20261114-084944.-training-consumption-ff4172,training,Building_59,42,training of the base learners,,,
-20261114-084945.-training-consumption-567c94,training,Building_59,42,training of the base learners,,,
-20261114-084931.-training-consumption-3cd8b0,training,Building_59,43,training of the base learners,,,
-20261114-084944.-training-consumption-e54bbd,training,Building_59,43,training of the base learners,,,
-20261114-084946.-training-consumption-11a5eb,training,Building_59,43,training of the base learners,,,
-20261114-084932.-training-consumption-3d145f,training,Building_59,44,training of the base learners,,,
-20261114-084945.-training-consumption-0f3e82,training,Building_59,44,training of the base learners,,,
-20261114-084946.-training-consumption-e6ee2b,training,Building_59,44,training of the base learners,,,
-20261114-084933.-training-consumption-f2e003,training,Building_59,45,training of the base learners,,,
-20261114-084934.-training-consumption-237001,training,Building_59,46,training of the base learners,,,
-20261114-084939.-training-consumption-1c8b44,training,HEEW,42,training of the base learners,,,
-20261114-084941.-training-consumption-945d72,training,HEEW,43,training of the base learners,,,
-20261114-084942.-training-consumption-ccaaa5,training,HEEW,44,training of the base learners,,,
-20261114-084943.-training-consumption-d34ecb,training,HEEW,45,training of the base learners,,,
-20261114-084944.-training-consumption-6dc33e,training,HEEW,46,training of the base learners,,,
-20261114-084948.-training-consumption-fb55d2,training,KSRP_Campus,42,training of the base learners,,,
-20261114-084950.-training-consumption-e193ef,training,KSRP_Campus,43,training of the base learners,,,
-20261114-084950.-training-consumption-b8b74f,training,KSRP_Campus,44,training of the base learners,,,
-20261114-084951.-training-consumption-2ad33c,training,KSRP_Campus,45,training of the base learners,,,
-20261114-084951.-training-consumption-c8f79c,training,KSRP_Campus,46,training of the base learners,,,
-20261121-135153.-training-consumption-ecf90a,training,NEST_UMAR,42,training of the base learners,,,
-20261121-135153.-training-consumption-fb9c1b,training,NEST_UMAR,43,training of the base learners,,,
-20261121-135153.-training-consumption-3e8400,training,NEST_UMAR,44,training of the base learners,,,
-20261121-135154.-training-consumption-06e79a,training,NEST_UMAR,45,training of the base learners,,,
-20261121-135154.-training-consumption-70f28c,training,NEST_UMAR,46,training of the base learners,,,
-20261114-084944.-forecasting-consumption-912106,forecasting,Building_59,42,"GBDT + LSTM-CNN + TFT (hidden size 64), static weights",20261114-084944.-training-consumption-ff4172,536,1
-20261114-084945.-forecasting-consumption-d7eb47,forecasting,Building_59,43,"GBDT + LSTM-CNN + TFT (hidden size 64), static weights",20261114-084944.-training-consumption-e54bbd,536,0
-20261114-084945.-forecasting-consumption-7418e5,forecasting,Building_59,44,"GBDT + LSTM-CNN + TFT (hidden size 64), static weights",20261114-084945.-training-consumption-0f3e82,536,0
-20261114-084946.-forecasting-consumption-2b8c72,forecasting,Building_59,42,"GBDT + LSTM-CNN + TFT (hidden size 96), static weights",20261114-084945.-training-consumption-567c94,536,0
-20261114-084946.-forecasting-consumption-47f6af,forecasting,Building_59,43,"GBDT + LSTM-CNN + TFT (hidden size 96), static weights",20261114-084946.-training-consumption-11a5eb,536,0
-20261114-084946.-forecasting-consumption-348ab3,forecasting,Building_59,44,"GBDT + LSTM-CNN + TFT (hidden size 96), static weights",20261114-084946.-training-consumption-e6ee2b,536,0
-20261119-071218.-forecasting-consumption-66e9a9,forecasting,Building_59,42,"GBDT + LSTM-CNN + TFT, rolling weights, scheduled retraining with guard",20261114-084929.-training-consumption-229800,536,17
-20261114-084929.-forecasting-consumption-2a188e,forecasting,Building_59,42,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084929.-training-consumption-229800,536,0
-20261114-084931.-forecasting-consumption-4103b6,forecasting,Building_59,43,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084931.-training-consumption-3cd8b0,536,0
-20261114-084932.-forecasting-consumption-f114a9,forecasting,Building_59,44,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084932.-training-consumption-3d145f,536,0
-20261114-084933.-forecasting-consumption-301295,forecasting,Building_59,45,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084933.-training-consumption-f2e003,536,0
-20261114-084934.-forecasting-consumption-694208,forecasting,Building_59,46,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084934.-training-consumption-237001,536,0
-20261119-071218.-forecasting-consumption-0a016b,forecasting,Building_59,42,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084929.-training-consumption-229800,536,17
-20261119-071219.-forecasting-consumption-928b44,forecasting,Building_59,43,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084931.-training-consumption-3cd8b0,536,17
-20261119-071219.-forecasting-consumption-e5b691,forecasting,Building_59,44,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084932.-training-consumption-3d145f,536,17
-20261119-071219.-forecasting-consumption-3e2aa5,forecasting,Building_59,45,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084933.-training-consumption-f2e003,536,17
-20261119-071219.-forecasting-consumption-3d8ccb,forecasting,Building_59,46,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084934.-training-consumption-237001,536,17
-20261119-071218.-forecasting-consumption-1a1abd,forecasting,Building_59,42,"GBDT + LSTM-CNN, rolling weights, scheduled retraining without guard",20261114-084929.-training-consumption-229800,536,17
-20261114-084929.-forecasting-consumption-4d52af,forecasting,Building_59,42,"GBDT + LSTM-CNN, static weights, frozen",20261114-084929.-training-consumption-229800,536,1
-20261114-084931.-forecasting-consumption-be5742,forecasting,Building_59,43,"GBDT + LSTM-CNN, static weights, frozen",20261114-084931.-training-consumption-3cd8b0,536,0
-20261114-084932.-forecasting-consumption-45780a,forecasting,Building_59,44,"GBDT + LSTM-CNN, static weights, frozen",20261114-084932.-training-consumption-3d145f,536,0
-20261114-084933.-forecasting-consumption-cf59b7,forecasting,Building_59,45,"GBDT + LSTM-CNN, static weights, frozen",20261114-084933.-training-consumption-f2e003,536,0
-20261114-084934.-forecasting-consumption-d470c3,forecasting,Building_59,46,"GBDT + LSTM-CNN, static weights, frozen",20261114-084934.-training-consumption-237001,536,0
-20261114-084929.-forecasting-consumption-1b92c6,forecasting,Building_59,42,"GBDT alone, frozen",20261114-084929.-training-consumption-229800,536,0
-20261114-084932.-forecasting-consumption-de6c1f,forecasting,Building_59,43,"GBDT alone, frozen",20261114-084931.-training-consumption-3cd8b0,536,0
-20261114-084932.-forecasting-consumption-392571,forecasting,Building_59,44,"GBDT alone, frozen",20261114-084932.-training-consumption-3d145f,536,0
-20261114-084929.-forecasting-consumption-2ec2b4,forecasting,Building_59,42,"GBDT alone, frozen (refit variant)",20261114-084929.-training-consumption-229800,536,0
-20261114-084932.-forecasting-consumption-1a02a1,forecasting,Building_59,43,"GBDT alone, frozen (refit variant)",20261114-084931.-training-consumption-3cd8b0,536,0
-20261114-084933.-forecasting-consumption-7c4a72,forecasting,Building_59,44,"GBDT alone, frozen (refit variant)",20261114-084932.-training-consumption-3d145f,536,0
-20261119-071218.-forecasting-consumption-eec9f0,forecasting,Building_59,42,"GBDT alone, scheduled retraining with guard",20261114-084929.-training-consumption-229800,536,17
-20261119-071219.-forecasting-consumption-43c0a2,forecasting,Building_59,43,"GBDT alone, scheduled retraining with guard",20261114-084931.-training-consumption-3cd8b0,536,17
-20261119-071220.-forecasting-consumption-46d849,forecasting,Building_59,44,"GBDT alone, scheduled retraining with guard",20261114-084932.-training-consumption-3d145f,536,17
-20261117-061739.-forecasting-consumption-d7ccc2,forecasting,Building_59,42,"GBDT alone, scheduled retraining, boosted",20261114-084929.-training-consumption-229800,536,17
-20261117-061740.-forecasting-consumption-bc9b62,forecasting,Building_59,42,"GBDT alone, scheduled retraining, refitted",20261114-084929.-training-consumption-229800,536,17
-20261114-084930.-forecasting-consumption-12c48f,forecasting,Building_59,42,LSTM-CNN alone,20261114-084929.-training-consumption-229800,536,1
-20261114-084932.-forecasting-consumption-ce1412,forecasting,Building_59,43,LSTM-CNN alone,20261114-084931.-training-consumption-3cd8b0,536,1
-20261114-084933.-forecasting-consumption-c606d4,forecasting,Building_59,44,LSTM-CNN alone,20261114-084932.-training-consumption-3d145f,536,1
-20261114-084930.-forecasting-consumption-027561,forecasting,Building_59,42,ablation: V2-accept,20261114-084929.-training-consumption-229800,536,1
-20261114-084930.-forecasting-consumption-5c077d,forecasting,Building_59,42,ablation: V2-insample,20261114-084929.-training-consumption-229800,536,1
-20261114-084931.-forecasting-consumption-aec59a,forecasting,Building_59,42,ablation: V2-k1,20261114-084929.-training-consumption-229800,536,3
-20261114-084931.-forecasting-consumption-f5b4c8,forecasting,Building_59,42,ablation: V2-k1.25,20261114-084929.-training-consumption-229800,536,1
-20261114-084931.-forecasting-consumption-d3b92f,forecasting,Building_59,42,ablation: V2-k2,20261114-084929.-training-consumption-229800,536,0
-20261114-084930.-forecasting-consumption-365ba8,forecasting,Building_59,42,ablation: V2-noanchor,20261114-084929.-training-consumption-229800,536,1
-20261114-084930.-forecasting-consumption-d52963,forecasting,Building_59,42,ablation: V2-noretune,20261114-084929.-training-consumption-229800,536,1
-20261114-084930.-forecasting-consumption-2769db,forecasting,Building_59,42,ablation: V2-scheduled,20261114-084929.-training-consumption-229800,536,17
-20261114-084930.-forecasting-consumption-d2c409,forecasting,Building_59,42,ablation: V3-accept,20261114-084929.-training-consumption-229800,536,0
-20261114-084940.-forecasting-consumption-833f17,forecasting,HEEW,42,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084941.-forecasting-consumption-8c35a8,forecasting,HEEW,43,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084941.-training-consumption-945d72,1454,0
-20261114-084942.-forecasting-consumption-d93472,forecasting,HEEW,44,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084942.-training-consumption-ccaaa5,1454,0
-20261114-084943.-forecasting-consumption-633fdd,forecasting,HEEW,45,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084943.-training-consumption-d34ecb,1454,0
-20261114-084944.-forecasting-consumption-c3bbdb,forecasting,HEEW,46,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084944.-training-consumption-6dc33e,1454,0
-20261119-071221.-forecasting-consumption-762338,forecasting,HEEW,42,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084939.-training-consumption-1c8b44,1454,3
-20261119-071222.-forecasting-consumption-77f849,forecasting,HEEW,43,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084941.-training-consumption-945d72,1454,3
-20261119-071222.-forecasting-consumption-8d9036,forecasting,HEEW,44,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084942.-training-consumption-ccaaa5,1454,3
-20261119-071222.-forecasting-consumption-b2a924,forecasting,HEEW,45,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084943.-training-consumption-d34ecb,1454,3
-20261119-071223.-forecasting-consumption-9a60fb,forecasting,HEEW,46,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084944.-training-consumption-6dc33e,1454,3
-20261119-071222.-forecasting-consumption-b8e977,forecasting,HEEW,42,"GBDT + LSTM-CNN, rolling weights, scheduled retraining without guard",20261114-084939.-training-consumption-1c8b44,1454,3
-20261114-084940.-forecasting-consumption-117903,forecasting,HEEW,42,"GBDT + LSTM-CNN, static weights, frozen",20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084942.-forecasting-consumption-de21e1,forecasting,HEEW,43,"GBDT + LSTM-CNN, static weights, frozen",20261114-084941.-training-consumption-945d72,1454,0
-20261114-084943.-forecasting-consumption-8030e9,forecasting,HEEW,44,"GBDT + LSTM-CNN, static weights, frozen",20261114-084942.-training-consumption-ccaaa5,1454,0
-20261114-084943.-forecasting-consumption-d6e78f,forecasting,HEEW,45,"GBDT + LSTM-CNN, static weights, frozen",20261114-084943.-training-consumption-d34ecb,1454,0
-20261114-084944.-forecasting-consumption-51a716,forecasting,HEEW,46,"GBDT + LSTM-CNN, static weights, frozen",20261114-084944.-training-consumption-6dc33e,1454,0
-20261114-084940.-forecasting-consumption-94add6,forecasting,HEEW,42,"GBDT alone, frozen",20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084942.-forecasting-consumption-3aaeb0,forecasting,HEEW,43,"GBDT alone, frozen",20261114-084941.-training-consumption-945d72,1454,0
-20261114-084943.-forecasting-consumption-5e5a6d,forecasting,HEEW,44,"GBDT alone, frozen",20261114-084942.-training-consumption-ccaaa5,1454,0
-20261114-084940.-forecasting-consumption-1c1204,forecasting,HEEW,42,"GBDT alone, frozen (refit variant)",20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084942.-forecasting-consumption-ab7067,forecasting,HEEW,43,"GBDT alone, frozen (refit variant)",20261114-084941.-training-consumption-945d72,1454,0
-20261114-084943.-forecasting-consumption-309661,forecasting,HEEW,44,"GBDT alone, frozen (refit variant)",20261114-084942.-training-consumption-ccaaa5,1454,0
-20261119-071222.-forecasting-consumption-d50402,forecasting,HEEW,42,"GBDT alone, scheduled retraining with guard",20261114-084939.-training-consumption-1c8b44,1454,3
-20261119-071223.-forecasting-consumption-909424,forecasting,HEEW,43,"GBDT alone, scheduled retraining with guard",20261114-084941.-training-consumption-945d72,1454,3
-20261119-071223.-forecasting-consumption-b19787,forecasting,HEEW,44,"GBDT alone, scheduled retraining with guard",20261114-084942.-training-consumption-ccaaa5,1454,3
-20261117-061740.-forecasting-consumption-d9fd1f,forecasting,HEEW,42,"GBDT alone, scheduled retraining, boosted",20261114-084939.-training-consumption-1c8b44,1454,3
-20261117-061741.-forecasting-consumption-5445a9,forecasting,HEEW,42,"GBDT alone, scheduled retraining, refitted",20261114-084939.-training-consumption-1c8b44,1454,3
-20261114-084940.-forecasting-consumption-617292,forecasting,HEEW,42,LSTM-CNN alone,20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084942.-forecasting-consumption-3f9edb,forecasting,HEEW,43,LSTM-CNN alone,20261114-084941.-training-consumption-945d72,1454,0
-20261114-084943.-forecasting-consumption-711e91,forecasting,HEEW,44,LSTM-CNN alone,20261114-084942.-training-consumption-ccaaa5,1454,0
-20261114-084941.-forecasting-consumption-72ed05,forecasting,HEEW,42,ablation: V2-accept,20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084941.-forecasting-consumption-144bb8,forecasting,HEEW,42,ablation: V2-insample,20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084941.-forecasting-consumption-375d7e,forecasting,HEEW,42,ablation: V2-k1,20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084941.-forecasting-consumption-595dcf,forecasting,HEEW,42,ablation: V2-noanchor,20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084940.-forecasting-consumption-fa10da,forecasting,HEEW,42,ablation: V2-noretune,20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084940.-forecasting-consumption-25e5e8,forecasting,HEEW,42,ablation: V2-scheduled,20261114-084939.-training-consumption-1c8b44,1454,3
-20261114-084941.-forecasting-consumption-942000,forecasting,HEEW,42,ablation: V3-accept,20261114-084939.-training-consumption-1c8b44,1454,0
-20261114-084948.-forecasting-consumption-bc7d3e,forecasting,KSRP_Campus,42,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084948.-training-consumption-fb55d2,3646,0
-20261114-084950.-forecasting-consumption-cd7a9c,forecasting,KSRP_Campus,43,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084950.-training-consumption-e193ef,3646,0
-20261114-084950.-forecasting-consumption-27d0a2,forecasting,KSRP_Campus,44,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261114-084950.-training-consumption-b8b74f,3646,0
-20261119-071256.-forecasting-consumption-93ff9d,forecasting,KSRP_Campus,42,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084948.-training-consumption-fb55d2,3646,9
-20261119-071256.-forecasting-consumption-fac259,forecasting,KSRP_Campus,43,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084950.-training-consumption-e193ef,3646,9
-20261119-071256.-forecasting-consumption-944c77,forecasting,KSRP_Campus,44,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261114-084950.-training-consumption-b8b74f,3646,9
-20261119-071257.-forecasting-consumption-893191,forecasting,KSRP_Campus,42,"GBDT + LSTM-CNN, rolling weights, scheduled retraining without guard",20261114-084948.-training-consumption-fb55d2,3646,9
-20261114-084948.-forecasting-consumption-ba28b1,forecasting,KSRP_Campus,42,"GBDT + LSTM-CNN, static weights, frozen",20261114-084948.-training-consumption-fb55d2,3646,0
-20261114-084950.-forecasting-consumption-b69e3a,forecasting,KSRP_Campus,43,"GBDT + LSTM-CNN, static weights, frozen",20261114-084950.-training-consumption-e193ef,3646,0
-20261114-084951.-forecasting-consumption-2f55d6,forecasting,KSRP_Campus,44,"GBDT + LSTM-CNN, static weights, frozen",20261114-084950.-training-consumption-b8b74f,3646,0
-20261114-084951.-forecasting-consumption-95c1b2,forecasting,KSRP_Campus,45,"GBDT + LSTM-CNN, static weights, frozen",20261114-084951.-training-consumption-2ad33c,3646,0
-20261114-084951.-forecasting-consumption-dde246,forecasting,KSRP_Campus,46,"GBDT + LSTM-CNN, static weights, frozen",20261114-084951.-training-consumption-c8f79c,3646,0
-20261114-084949.-forecasting-consumption-5e7225,forecasting,KSRP_Campus,42,"GBDT alone, frozen",20261114-084948.-training-consumption-fb55d2,3646,0
-20261114-084949.-forecasting-consumption-416ac8,forecasting,KSRP_Campus,42,"GBDT alone, frozen (refit variant)",20261114-084948.-training-consumption-fb55d2,3646,0
-20261119-071256.-forecasting-consumption-d565e5,forecasting,KSRP_Campus,42,"GBDT alone, scheduled retraining with guard",20261114-084948.-training-consumption-fb55d2,3646,9
-20261117-061741.-forecasting-consumption-e14a0f,forecasting,KSRP_Campus,42,"GBDT alone, scheduled retraining, boosted",20261114-084948.-training-consumption-fb55d2,3646,9
-20261117-061741.-forecasting-consumption-d88529,forecasting,KSRP_Campus,42,"GBDT alone, scheduled retraining, refitted",20261114-084948.-training-consumption-fb55d2,3646,9
-20261114-084949.-forecasting-consumption-09ba7e,forecasting,KSRP_Campus,42,LSTM-CNN alone,20261114-084948.-training-consumption-fb55d2,3646,1
-20261114-084949.-forecasting-consumption-33e505,forecasting,KSRP_Campus,42,ablation: V2-accept,20261114-084948.-training-consumption-fb55d2,3646,0
-20261114-084949.-forecasting-consumption-72d612,forecasting,KSRP_Campus,42,ablation: V2-insample,20261114-084948.-training-consumption-fb55d2,3646,0
-20261114-084950.-forecasting-consumption-9ab6a2,forecasting,KSRP_Campus,42,ablation: V2-noanchor,20261114-084948.-training-consumption-fb55d2,3646,1
-20261114-084949.-forecasting-consumption-047d33,forecasting,KSRP_Campus,42,ablation: V2-noretune,20261114-084948.-training-consumption-fb55d2,3646,0
-20261114-084949.-forecasting-consumption-97328b,forecasting,KSRP_Campus,42,ablation: V2-scheduled,20261114-084948.-training-consumption-fb55d2,3646,9
-20261114-084950.-forecasting-consumption-9ecddd,forecasting,KSRP_Campus,42,ablation: V3-accept,20261114-084948.-training-consumption-fb55d2,3646,0
-20261121-135154.-forecasting-consumption-d9a692,forecasting,NEST_UMAR,42,"GBDT + LSTM-CNN + TFT, rolling weights, scheduled retraining with guard",20261121-135153.-training-consumption-ecf90a,721,20
-20261121-135154.-forecasting-consumption-6b56c8,forecasting,NEST_UMAR,42,"GBDT + LSTM-CNN + TFT, static weights, frozen",20261121-135153.-training-consumption-ecf90a,721,0
-20261121-135154.-forecasting-consumption-16956b,forecasting,NEST_UMAR,42,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261121-135153.-training-consumption-ecf90a,721,20
-20261122-063116.-forecasting-consumption-2629e5,forecasting,NEST_UMAR,43,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261121-135153.-training-consumption-fb9c1b,721,20
-20261122-063116.-forecasting-consumption-21e2f9,forecasting,NEST_UMAR,44,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261121-135153.-training-consumption-3e8400,721,20
-20261122-063116.-forecasting-consumption-727559,forecasting,NEST_UMAR,45,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261121-135154.-training-consumption-06e79a,721,20
-20261122-063116.-forecasting-consumption-b09d57,forecasting,NEST_UMAR,46,"GBDT + LSTM-CNN, rolling weights, scheduled retraining with guard",20261121-135154.-training-consumption-70f28c,721,20
-20261121-135154.-forecasting-consumption-1fea1a,forecasting,NEST_UMAR,42,"GBDT + LSTM-CNN, rolling weights, scheduled retraining without guard",20261121-135153.-training-consumption-ecf90a,721,20
-20261121-135154.-forecasting-consumption-5b3f2a,forecasting,NEST_UMAR,42,"GBDT + LSTM-CNN, static weights, frozen",20261121-135153.-training-consumption-ecf90a,721,0
-20261122-063117.-forecasting-consumption-535bbd,forecasting,NEST_UMAR,43,"GBDT + LSTM-CNN, static weights, frozen",20261121-135153.-training-consumption-fb9c1b,721,0
-20261122-063116.-forecasting-consumption-c463e7,forecasting,NEST_UMAR,44,"GBDT + LSTM-CNN, static weights, frozen",20261121-135153.-training-consumption-3e8400,721,0
-20261122-063117.-forecasting-consumption-57354f,forecasting,NEST_UMAR,45,"GBDT + LSTM-CNN, static weights, frozen",20261121-135154.-training-consumption-06e79a,721,0
-20261122-063117.-forecasting-consumption-91e2bd,forecasting,NEST_UMAR,46,"GBDT + LSTM-CNN, static weights, frozen",20261121-135154.-training-consumption-70f28c,721,0
-20261121-135154.-forecasting-consumption-87e444,forecasting,NEST_UMAR,42,"GBDT alone, scheduled retraining with guard",20261121-135153.-training-consumption-ecf90a,721,20
-20261121-135155.-forecasting-consumption-e4a3c5,forecasting,NEST_UMAR,43,"GBDT alone, scheduled retraining with guard",20261121-135153.-training-consumption-fb9c1b,721,20
-20261121-135155.-forecasting-consumption-7b4a68,forecasting,NEST_UMAR,44,"GBDT alone, scheduled retraining with guard",20261121-135153.-training-consumption-3e8400,721,20
+20261124-194642.-training-consumption-b44b15,training,Building_59,42,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194643.-training-consumption-04682a,training,Building_59,43,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194644.-training-consumption-8e761b,training,Building_59,44,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194646.-training-consumption-2c6eaf,training,Building_59,45,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194646.-training-consumption-1e9ee3,training,Building_59,46,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194642.-training-consumption-ef511b,training,HEEW,42,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194643.-training-consumption-f5adfb,training,HEEW,43,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194644.-training-consumption-892224,training,HEEW,44,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194642.-training-consumption-67db37,training,KSRP_Campus,42,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194643.-training-consumption-55eaf0,training,KSRP_Campus,43,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194644.-training-consumption-19e03c,training,KSRP_Campus,44,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194642.-training-consumption-3631dc,training,NEST_UMAR,42,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194643.-training-consumption-7fa8bb,training,NEST_UMAR,43,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194643.-training-consumption-d9c88f,training,NEST_UMAR,44,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194646.-training-consumption-86b894,training,NEST_UMAR,45,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261124-194646.-training-consumption-881b80,training,NEST_UMAR,46,"training of the base learners (GBDT, LSTM-CNN)",,,
+20261125-003426.-forecasting-consumption-b55338,forecasting,Building_59,42,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194642.-training-consumption-b44b15,535,17
+20261124-194645.-forecasting-consumption-8af471,forecasting,Building_59,42,"GBDT + LSTM-CNN, scheduled retraining without guard",20261124-194642.-training-consumption-b44b15,535,17
+20261124-194644.-forecasting-consumption-7a6a9a,forecasting,Building_59,43,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194643.-training-consumption-04682a,535,17
+20261124-194645.-forecasting-consumption-b1bf63,forecasting,Building_59,44,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194644.-training-consumption-8e761b,535,17
+20261125-003426.-forecasting-consumption-6e68fd,forecasting,Building_59,45,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194646.-training-consumption-2c6eaf,535,17
+20261125-003426.-forecasting-consumption-6047d1,forecasting,Building_59,46,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194646.-training-consumption-1e9ee3,535,17
+20261124-194643.-forecasting-consumption-521574,forecasting,HEEW,42,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194642.-training-consumption-ef511b,1454,3
+20261124-194645.-forecasting-consumption-2dd7e8,forecasting,HEEW,42,"GBDT + LSTM-CNN, scheduled retraining without guard",20261124-194642.-training-consumption-ef511b,1454,3
+20261124-194644.-forecasting-consumption-9fe0eb,forecasting,HEEW,43,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194643.-training-consumption-f5adfb,1454,3
+20261124-194645.-forecasting-consumption-d931ea,forecasting,HEEW,44,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194644.-training-consumption-892224,1454,3
+20261124-194643.-forecasting-consumption-e5700e,forecasting,KSRP_Campus,42,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194642.-training-consumption-67db37,3646,9
+20261124-194645.-forecasting-consumption-55d600,forecasting,KSRP_Campus,42,"GBDT + LSTM-CNN, scheduled retraining without guard",20261124-194642.-training-consumption-67db37,3646,9
+20261124-194644.-forecasting-consumption-2717e5,forecasting,KSRP_Campus,43,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194643.-training-consumption-55eaf0,3646,9
+20261124-194645.-forecasting-consumption-86f052,forecasting,KSRP_Campus,44,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194644.-training-consumption-19e03c,3646,9
+20261125-003426.-forecasting-consumption-1d34af,forecasting,NEST_UMAR,42,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194642.-training-consumption-3631dc,721,20
+20261124-194645.-forecasting-consumption-321afa,forecasting,NEST_UMAR,42,"GBDT + LSTM-CNN, scheduled retraining without guard",20261124-194642.-training-consumption-3631dc,721,20
+20261124-194644.-forecasting-consumption-b33db6,forecasting,NEST_UMAR,43,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194643.-training-consumption-7fa8bb,721,20
+20261124-194645.-forecasting-consumption-514a5f,forecasting,NEST_UMAR,44,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194643.-training-consumption-d9c88f,721,20
+20261124-194646.-forecasting-consumption-fc2480,forecasting,NEST_UMAR,45,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194646.-training-consumption-86b894,721,20
+20261125-003426.-forecasting-consumption-33f226,forecasting,NEST_UMAR,46,"GBDT + LSTM-CNN, scheduled retraining with guard (frozen and retrained forecasts)",20261124-194646.-training-consumption-881b80,721,20

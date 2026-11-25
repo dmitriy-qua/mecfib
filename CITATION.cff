@@ -7,8 +7,8 @@ authors:
     given-names: Dmytro
     affiliation: "General Energy Institute of the National Academy of Sciences of Ukraine"
 license: MIT
-version: "1.0.0"
-date-released: "2026-11-23"
+version: "1.2.0"
+date-released: "2026-11-25"
 preferred-citation:
   type: article
   title: "Adaptive multi-energy hybrid ensemble for short-term forecasting of heating, cooling, DHW, and electricity in buildings"

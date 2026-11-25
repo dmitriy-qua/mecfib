@@ -1,157 +1,325 @@
 dataset,comparison,loss,seeds,relative_difference_pct,ci95_low_pct,ci95_high_pct,diebold_mariano_p
-KSRP_Campus,frozen: ensemble vs GBDT alone,daily absolute loss,5,-9.49613094329834,-11.216436386108398,-7.826728343963623,7.681647504664804e-27
-KSRP_Campus,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-3.6444246768951416,-10.825735092163086,-3.192122220993042,0.0005804209895974
-KSRP_Campus,frozen: zero member added to GBDT,daily absolute loss,5,-8.601265907287598,-10.278804779052734,-6.959732055664063,2.8822065869662617e-22
-KSRP_Campus,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-3.4667611122131348,-10.841767311096191,-2.626692771911621,0.0012347405474667
-KSRP_Campus,frozen: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-0.9790780544281006,-1.327742338180542,-0.6185472011566162,9.300430493271009e-08
-KSRP_Campus,frozen: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.1840412616729736,-1.1129130125045776,0.3662329614162445,0.335744079968432
-KSRP_Campus,frozen: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-2.087580442428589,-3.0667855739593506,-1.081908106803894,9.463037024480078e-05
-KSRP_Campus,frozen: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,0.3531694412231445,-2.0836901664733887,3.430218458175659,0.6180022441532791
-KSRP_Campus,frozen: anchor added to the ensemble,daily absolute loss,5,-3.4595932960510254,-5.006505012512207,-1.8943971395492556,1.8382915594274688e-05
-KSRP_Campus,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-2.1022379398345947,-8.827489852905273,0.7798597812652588,0.0971534834775451
-KSRP_Campus,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-7.566506862640381,-8.961934089660645,-6.2546916007995605,2.944584083665261e-26
-KSRP_Campus,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-3.983521461486816,-10.712854385375977,-4.890983581542969,6.156470861439077e-07
-KSRP_Campus,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,-0.4877534360104296,-1.0201727330850356,0.030916649917744,
-KSRP_Campus,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-3.1462248722829766,-5.840483710238187,-0.2333723146540443,
-KSRP_Campus,retrained: ensemble vs GBDT alone,daily absolute loss,3,-3.48449182510376,-4.657915592193604,-2.393468141555786,4.769393522867964e-09
-KSRP_Campus,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),3,-1.4710187911987305,-5.952036380767822,0.2050942033529281,0.0641581082621529
-KSRP_Campus,retrained: zero member added to GBDT,daily absolute loss,3,-2.5620291233062744,-3.5669727325439453,-1.485369086265564,2.2347398352659486e-06
-KSRP_Campus,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),3,-0.776362419128418,-4.331492424011231,1.273066759109497,0.2843370139590854
-KSRP_Campus,retrained: LSTM-CNN added to GBDT + zero,daily absolute loss,3,-0.9467178583145142,-1.389800786972046,-0.4953705668449402,4.041606587557328e-05
-KSRP_Campus,retrained: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),3,-0.7000923156738281,-2.714246988296509,-0.0850028321146965,0.0350966335511448
-KSRP_Campus,retrained: zero member added to GBDT + LSTM-CNN,daily absolute loss,3,-0.5814754962921143,-1.1150500774383545,-0.0084152501076459,0.0446194955299863
-KSRP_Campus,retrained: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),3,0.3821849822998047,-0.8524584770202637,2.38186264038086,0.34854502736881
-KSRP_Campus,retrained: anchor added to the ensemble,daily absolute loss,3,-4.897924900054932,-6.713650226593018,-3.0530662536621094,7.065869488132483e-07
-KSRP_Campus,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),3,-5.171573162078857,-15.482976913452148,-4.622691631317139,0.0005221696992158
-KSRP_Campus,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,3,-2.919995069503784,-3.806967258453369,-1.9691940546035769,3.932375397426847e-09
-KSRP_Campus,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),3,-1.846146583557129,-6.14153528213501,-1.1357126235961914,0.0064233728835887
-KSRP_Campus,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,3,-1.508214996609214,-2.390728476568428,-0.6567008809339228,
-KSRP_Campus,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,3,-2.752490163406096,-4.944919106432383,-0.596198323400014,
-KSRP_Campus,retrained vs frozen: ensemble,daily absolute loss,3,2.14897894859314,0.3816838264465332,4.116740703582764,0.0246819865579071
-KSRP_Campus,retrained vs frozen: gbdt+zero,daily absolute loss,3,2.111181259155273,0.1670092195272445,4.046739101409912,0.0344695833786792
-KSRP_Campus,retrained vs frozen: gbdt,daily absolute loss,3,-4.229623317718506,-6.285137176513672,-2.068697690963745,8.7603069657795e-05
-KSRP_Campus,frozen ensemble vs retrained GBDT alone,daily absolute loss,3,-5.514955520629883,-7.648579597473144,-3.523313283920288,6.971554364730541e-07
-KSRP_Campus,frozen ensemble vs retrained GBDT + zero,daily absolute loss,3,-3.0305705070495605,-4.917797088623047,-1.152515172958374,0.0018852843678953
-KSRP_Campus,guard vs no guard: ensemble,daily absolute loss,1,5.498426914215088,3.966439962387085,7.253879070281982,1.6772160217731947e-10
-KSRP_Campus,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,-3.195709705352783,-4.587927341461182,-1.842534184455872,1.0955886929922771e-05
-KSRP_Campus,guard vs no guard: gbdt+zero,daily absolute loss,1,5.377467155456543,3.5523977279663086,7.221714496612549,5.797831171586067e-09
-KSRP_Campus,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,-2.978779554367065,-4.384350299835205,-1.569378137588501,4.789220239411929e-05
-KSRP_Campus,guard vs no guard: gbdt,daily absolute loss,1,7.221920967102051,5.324926376342773,9.218899726867676,2.6472497212724576e-13
-KSRP_Campus,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,-10.53839874267578,-12.163322448730469,-8.948161125183105,6.816864022898294e-34
-HEEW,frozen: ensemble vs GBDT alone,daily absolute loss,5,-7.217226982116699,-9.349480628967283,-5.182077884674072,2.848954598799993e-11
-HEEW,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-4.882603645324707,-13.48273754119873,-5.399871826171875,7.2043101837481545e-06
-HEEW,frozen: zero member added to GBDT,daily absolute loss,5,-6.798398971557617,-8.766191482543945,-5.022233963012695,3.7797629320577386e-12
-HEEW,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-4.773479461669922,-12.942368507385254,-5.942224025726318,4.858727048769859e-07
-HEEW,frozen: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-0.4493781328201294,-0.9608352780342102,0.0507910549640655,0.0854134730852257
-HEEW,frozen: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.114595890045166,-1.241173505783081,0.9461106657981871,0.6912341195518689
-HEEW,frozen: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-6.25822114944458,-7.849544048309326,-4.84515380859375,6.293186566892438e-15
-HEEW,frozen: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,-4.569518566131592,-11.769437789916992,-6.595400333404541,2.0376310627557488e-11
-HEEW,frozen: anchor added to the ensemble,daily absolute loss,5,-3.4373505115509038,-4.828895568847656,-2.1032071113586426,6.876277605446113e-07
-HEEW,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-2.0441830158233643,-6.190423011779785,-1.903754711151123,0.0003855681213324
-HEEW,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-1.0230295658111572,-2.083858013153076,-0.0795039385557174,0.0564155096323875
-HEEW,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.3280818462371826,-3.3266873359680176,2.4223201274871826,0.6602589989115812
-HEEW,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,1.0741264752043067,-0.0292117276836303,2.4104822512033626,
-HEEW,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-4.956088227095123,-9.66835197170448,-0.0663513955789997,
-HEEW,retrained: ensemble vs GBDT alone,daily absolute loss,5,-9.503606796264648,-11.796930313110352,-7.323992252349853,1.1315228716450128e-15
-HEEW,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-8.967489242553711,-21.83207321166992,-12.42460823059082,5.266913656761553e-12
-HEEW,retrained: zero member added to GBDT,daily absolute loss,5,-8.585232734680176,-10.69054889678955,-6.662045955657959,5.230245286406918e-16
-HEEW,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-7.9080047607421875,-19.42570686340332,-11.133305549621582,5.0031412418531534e-12
-HEEW,retrained: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-1.0046218633651731,-1.7574881315231323,-0.3049333989620209,0.0082809860132541
-HEEW,retrained: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-1.150459051132202,-3.985763549804688,-0.7127068042755127,0.0064735543529478
-HEEW,retrained: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-5.886530876159668,-7.465267181396484,-4.529077053070068,6.455159500864031e-14
-HEEW,retrained: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,-5.134403705596924,-13.139796257019045,-7.377561569213867,1.5151595946234218e-11
-HEEW,retrained: anchor added to the ensemble,daily absolute loss,5,-1.811102271080017,-2.7650575637817383,-0.8973243832588196,0.0002930807510789
-HEEW,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-1.7990171909332275,-6.138767719268799,-1.2838085889816284,0.0051129695669665
-HEEW,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-3.8433120250701904,-5.280879020690918,-2.3786332607269287,2.408337204506903e-07
-HEEW,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-4.04055118560791,-11.317171096801758,-4.59691333770752,9.308441650108484e-06
-HEEW,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,-0.9901278094785916,-2.344066794446838,0.2717669565166421,
-HEEW,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-7.936822081423223,-11.954419018614766,-4.036725353554395,
-HEEW,retrained vs frozen: ensemble,daily absolute loss,5,2.722778558731079,0.8033896684646606,4.715817451477051,0.0079442251749486
-HEEW,retrained vs frozen: gbdt+zero,daily absolute loss,5,3.2989282608032227,1.228937745094299,5.334214687347412,0.0030684081140124
-HEEW,retrained vs frozen: gbdt,daily absolute loss,5,5.318055152893066,3.352649688720703,7.265244007110596,3.563921085640095e-07
-HEEW,frozen ensemble vs retrained GBDT alone,daily absolute loss,5,-11.902311325073242,-14.544139862060549,-9.468536376953123,8.063486686212215e-20
-HEEW,frozen ensemble vs retrained GBDT + zero,daily absolute loss,5,-3.6286022663116455,-5.825681209564209,-1.6205915212631226,0.0010001422817357
-HEEW,guard vs no guard: ensemble,daily absolute loss,1,0.7429661750793457,-0.8368985652923584,2.3035056591033936,0.3632514745136164
-HEEW,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,2.798769235610962,0.4412033855915069,5.119678020477295,0.0289578872878
-HEEW,guard vs no guard: gbdt+zero,daily absolute loss,1,-0.3993923664093017,-2.575916051864624,1.72976815700531,0.7286292483841964
-HEEW,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,5.033212661743164,1.9922213554382324,8.069493293762207,0.0018590620887681
-HEEW,guard vs no guard: gbdt,daily absolute loss,1,1.9511126279830933,-0.2177467048168182,3.984345436096192,0.0828153831184849
-HEEW,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,6.104441642761231,3.174436569213867,8.909530639648438,6.757797042352216e-05
-Building_59,frozen: ensemble vs GBDT alone,daily absolute loss,5,-11.243454933166504,-18.682348251342773,-5.0673441886901855,0.0005924294554776
-Building_59,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-7.313471794128418,-32.855995178222656,0.9417718052864076,0.0828305826021404
-Building_59,frozen: zero member added to GBDT,daily absolute loss,5,-10.69833755493164,-17.48891830444336,-4.375975131988525,0.0011550752118945
-Building_59,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-7.306796073913574,-32.33104705810547,1.3848735094070437,0.0855542438653021
-Building_59,frozen: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-0.6104230880737305,-1.3164095878601074,0.3892228305339813,0.185924928149605
-Building_59,frozen: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.0072002410888671,-1.1424343585968018,1.4058502912521362,0.9827692173210324
-Building_59,frozen: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-7.632864952087402,-14.357322692871094,-1.927585244178772,0.0111296419457171
-Building_59,frozen: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,-5.880766868591309,-28.69927978515625,1.733856439590454,0.133230809906679
-Building_59,frozen: anchor added to the ensemble,daily absolute loss,5,-8.469649314880371,-15.37312126159668,-3.0931620597839355,0.0081380977880891
-Building_59,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-5.924749374389648,-20.69933319091797,-3.759706258773804,0.0136325415031812
-Building_59,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-3.908954381942749,-6.36376428604126,-1.2964166402816772,0.0030796127662975
-Building_59,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-1.522219181060791,-8.162590026855469,2.6552419662475586,0.2718530548803702
-Building_59,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,0.1057894044951934,-0.5266918889720876,0.8254668369854082,
-Building_59,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-6.961312137333408,-22.001658375809665,4.245819646644563,
-Building_59,retrained: ensemble vs GBDT alone,daily absolute loss,5,0.550015389919281,-1.967910647392273,3.2237086296081543,0.6729281551746324
-Building_59,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,0.7933974266052246,-2.2201921939849854,6.133026599884033,0.4524586959441521
-Building_59,retrained: zero member added to GBDT,daily absolute loss,5,0.5012243390083313,-1.4976648092269895,2.509238719940185,0.640686431386408
-Building_59,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),5,0.747215747833252,-1.7314592599868774,5.354427814483643,0.4151457083835538
-Building_59,retrained: LSTM-CNN added to GBDT + zero,daily absolute loss,5,0.0485478714108467,-1.1772841215133667,1.1435201168060305,0.932425209636466
-Building_59,retrained: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,0.0458359718322753,-1.8846557140350344,1.9680309295654297,0.9220854439656488
-Building_59,retrained: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,0.6450549364089966,-1.013753056526184,2.3882524967193604,0.4544693887807836
-Building_59,retrained: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,0.7687687873840332,-1.2634918689727783,4.82620096206665,0.326963053120243
-Building_59,retrained: anchor added to the ensemble,daily absolute loss,5,-7.008403778076172,-12.822019577026367,-2.536421775817871,0.0074788081141514
-Building_59,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-4.241055488586426,-16.0916690826416,-2.160998821258545,0.0257182733467044
-Building_59,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-0.0944301709532737,-1.897655248641968,1.6747024059295654,0.9186551445826132
-Building_59,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,0.0244379043579101,-3.051060914993286,3.187555313110352,0.9751752964683544
-Building_59,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,-0.2247036189109152,-1.5810350243886384,0.9984557075849048,
-Building_59,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,0.2150983021937502,-2.733379283386401,3.472810534759444,
-Building_59,retrained vs frozen: ensemble,daily absolute loss,5,1.7265727519989014,-3.2224113941192627,6.273749828338623,0.4840129454355067
-Building_59,retrained vs frozen: gbdt+zero,daily absolute loss,5,1.056548833847046,-3.783833980560303,5.831925868988037,0.6847458382139131
-Building_59,retrained vs frozen: gbdt,daily absolute loss,5,-10.204895973205566,-18.04865074157715,-2.4723455905914307,0.0083793378604901
-Building_59,frozen ensemble vs retrained GBDT alone,daily absolute loss,5,-1.1565876007080078,-5.438321113586426,3.504140853881836,0.623886383985742
-Building_59,frozen ensemble vs retrained GBDT + zero,daily absolute loss,5,-1.6495438814163208,-6.489217281341553,3.3013832569122314,0.5104721566888891
-Building_59,guard vs no guard: ensemble,daily absolute loss,1,-8.56611156463623,-12.47221851348877,-5.026244640350342,1.1549819648711492e-05
-Building_59,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,11.219952583312988,6.624438285827637,16.094961166381836,2.6500217685462988e-06
-Building_59,guard vs no guard: gbdt+zero,daily absolute loss,1,-9.266790390014648,-13.165918350219728,-5.518301963806152,5.645913802765268e-06
-Building_59,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,11.844229698181152,7.2496657371521,16.879714965820312,1.8300259058117664e-06
-Building_59,guard vs no guard: gbdt,daily absolute loss,1,-9.78203010559082,-13.940866470336914,-6.038873195648193,1.3212507199241566e-06
-Building_59,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,0.0530180968344211,-7.301888465881348,7.413753509521484,0.9885206498556708
-NEST_UMAR,frozen: ensemble vs GBDT alone,daily absolute loss,5,-8.469722747802734,-10.381302833557127,-6.299487590789795,6.089127040965032e-16
-NEST_UMAR,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.4305183887481689,-2.15860366821289,0.681419312953949,0.2569425014194336
-NEST_UMAR,frozen: zero member added to GBDT,daily absolute loss,5,-8.989556312561035,-10.93525218963623,-6.8210296630859375,9.820192423977601e-17
-NEST_UMAR,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-0.4787206649780273,-2.112423896789551,0.603724479675293,0.1949791762550664
-NEST_UMAR,frozen: LSTM-CNN added to GBDT + zero,daily absolute loss,5,0.5711811184883118,0.1503786146640777,0.9262850880622864,0.0045224090909922
-NEST_UMAR,frozen: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,0.0484347343444824,-0.3688864409923553,0.5861101150512695,0.705386081812497
-NEST_UMAR,frozen: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-8.601356506347656,-10.41230583190918,-6.688519477844238,5.7099952195732436e-18
-NEST_UMAR,frozen: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,-0.915074348449707,-3.165097713470459,-0.2681646645069122,0.0211580341518823
-NEST_UMAR,frozen: anchor added to the ensemble,daily absolute loss,5,-2.9501936435699463,-6.443868637084961,-0.4268877506256103,0.0565562961065032
-NEST_UMAR,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-0.6820559501647949,-2.7909183502197266,-0.3063311576843261,0.0479813921812287
-NEST_UMAR,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,0.1440226435661316,-0.5905370712280273,0.8094346523284912,0.686284611221505
-NEST_UMAR,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,0.4890322685241699,0.2615118622779846,1.8452752828598025,0.0195659003125684
-NEST_UMAR,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,0.4252753810701337,0.006333960062983,1.0390185996481585,
-NEST_UMAR,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-2.9891411726886585,-5.229692964609527,-0.2865260479577738,
-NEST_UMAR,retrained: ensemble vs GBDT alone,daily absolute loss,5,-5.159904956817627,-6.684460163116455,-3.818997859954834,1.1230620761737952e-11
-NEST_UMAR,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.5207300186157227,-1.6154980659484863,-0.4642585217952728,0.0007087295480056
-NEST_UMAR,retrained: zero member added to GBDT,daily absolute loss,5,-3.3273465633392334,-4.575486183166504,-2.188568592071533,1.47278190760055e-07
-NEST_UMAR,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-0.1150488853454589,-0.6288313865661621,0.1654849499464035,0.2485703530028301
-NEST_UMAR,retrained: LSTM-CNN added to GBDT + zero,daily absolute loss,5,-1.8956319093704224,-2.7232017517089844,-1.2431681156158447,1.172840244498694e-06
-NEST_UMAR,retrained: LSTM-CNN added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.4061520099639892,-1.2459146976470947,-0.3711968660354614,0.0004490032527379
-NEST_UMAR,retrained: zero member added to GBDT + LSTM-CNN,daily absolute loss,5,-1.657304286956787,-2.542083740234375,-0.9287519454956056,6.482813280082297e-05
-NEST_UMAR,retrained: zero member added to GBDT + LSTM-CNN,daily squared loss (reported as RMSE change),5,0.0223875045776367,-0.2647682130336761,0.3790033459663391,0.7836175487104251
-NEST_UMAR,retrained: anchor added to the ensemble,daily absolute loss,5,-4.182993412017822,-7.318510055541992,-1.6379700899124146,0.0077159420793554
-NEST_UMAR,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,-0.9005486965179443,-3.144554615020752,-0.7164528965950012,0.0084154304559044
-NEST_UMAR,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-3.56162691116333,-4.914883136749268,-2.456737279891968,2.1283565435499883e-08
-NEST_UMAR,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.5430042743682861,-1.570726752281189,-0.5551264882087708,8.53401518654601e-05
-NEST_UMAR,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero",mean loss of the worst 10 % of days,5,-1.0376027497998153,-2.4729121061695403,0.0249747283934572,
-NEST_UMAR,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-2.6481400109316544,-4.8271150610350775,-1.0558090496961643,
-NEST_UMAR,retrained vs frozen: ensemble,daily absolute loss,5,-0.0160995088517665,-0.926602303981781,0.9088068008422852,0.9722497370154884
-NEST_UMAR,retrained vs frozen: gbdt+zero,daily absolute loss,5,2.497973680496216,1.4770474433898926,3.671478271484375,2.4257255790925687e-05
-NEST_UMAR,retrained vs frozen: gbdt,daily absolute loss,5,-3.5054311752319336,-5.406382083892822,-1.1930782794952393,0.0023821139809905
-NEST_UMAR,frozen ensemble vs retrained GBDT alone,daily absolute loss,5,-5.144633769989014,-6.772047996520996,-3.75710654258728,4.260779668115989e-10
-NEST_UMAR,frozen ensemble vs retrained GBDT + zero,daily absolute loss,5,-1.8798348903656008,-3.089096784591675,-0.8457853198051453,0.0012608681707375
-NEST_UMAR,guard vs no guard: ensemble,daily absolute loss,1,-3.964712142944336,-7.087040901184082,-1.592221736907959,0.0049782732876287
-NEST_UMAR,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,4.008881092071533,1.343110203742981,7.642051696777344,0.0110638058692302
-NEST_UMAR,guard vs no guard: gbdt+zero,daily absolute loss,1,-5.864108562469482,-8.697819709777832,-3.660123586654663,6.032427474897873e-06
-NEST_UMAR,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,8.948254585266113,6.547226905822754,12.40499210357666,3.131934369889296e-09
-NEST_UMAR,guard vs no guard: gbdt,daily absolute loss,1,-91.37535858154295,-201.10321044921875,-24.590770721435547,0.0641251557517773
-NEST_UMAR,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,1020.9138793945312,268.0450744628906,2242.967529296875,0.0649750226018993
+KSRP_Campus,frozen: ensemble vs GBDT alone,daily absolute loss,3,-22.489280700683597,-24.46354484558105,-20.562185287475582,8.042428853161003e-106
+KSRP_Campus,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),3,-18.58476448059082,-40.0258674621582,-28.1903018951416,3.861188915677206e-27
+KSRP_Campus,frozen: zero member added to GBDT,daily absolute loss,3,-11.11375331878662,-13.007125854492188,-9.322280883789062,2.625833447164377e-31
+KSRP_Campus,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),3,-6.719684600830078,-17.26924705505371,-8.739886283874512,4.6317491083532305e-09
+KSRP_Campus,frozen: affine member added to GBDT + zero,daily absolute loss,3,-10.632341384887695,-12.76535987854004,-8.811590194702148,3.234242061229268e-25
+KSRP_Campus,frozen: affine member added to GBDT + zero,daily squared loss (reported as RMSE change),3,-12.451892852783203,-30.75418472290039,-16.844547271728516,2.5659324022239056e-10
+KSRP_Campus,"frozen: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily absolute loss,3,-0.5671682357788086,-0.877252459526062,-0.2206726670265197,0.0011646128566558
+KSRP_Campus,"frozen: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily squared loss (reported as RMSE change),3,0.1953363418579101,-0.4982421994209289,1.9854775667190552,0.5438086927750839
+KSRP_Campus,frozen: anchor added to the ensemble,daily absolute loss,3,0.1321609914302826,-0.2901579439640045,0.6210509538650513,0.5745892983504568
+KSRP_Campus,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),3,1.088094711303711,0.8312540054321289,3.974867582321167,0.006729825370526
+KSRP_Campus,"frozen: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily absolute loss,3,-16.966876983642578,-18.802722930908203,-15.273286819458008,4.4755063205575836e-68
+KSRP_Campus,"frozen: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily squared loss (reported as RMSE change),3,-15.584677696228027,-35.41924285888672,-23.066011428833008,2.942581274800996e-19
+KSRP_Campus,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,3,-6.6508469581604,-7.601979732513428,-5.797715187072754,2.19484741161387e-43
+KSRP_Campus,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),3,-3.5539627075195312,-9.274994850158691,-4.693758010864258,9.981993161430493e-09
+KSRP_Campus,"frozen: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily absolute loss,3,-12.820595741271973,-14.981285095214844,-11.066705703735352,8.261788474454242e-34
+KSRP_Campus,"frozen: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily squared loss (reported as RMSE change),3,-15.121108055114746,-35.114261627197266,-21.72551155090332,3.994964858105291e-15
+KSRP_Campus,frozen: affine recalibration vs GBDT alone,daily absolute loss,3,-20.402061462402344,-22.461748123168945,-18.556127548217773,3.160111099427577e-87
+KSRP_Campus,frozen: affine recalibration vs GBDT alone,daily squared loss (reported as RMSE change),3,-18.483888626098636,-40.05549621582031,-28.30646514892578,2.125144786638438e-26
+KSRP_Campus,frozen: ensemble vs affine recalibration,daily absolute loss,3,-2.6222052574157715,-3.290384292602539,-1.9743845462799072,5.931679591299419e-15
+KSRP_Campus,frozen: ensemble vs affine recalibration,daily squared loss (reported as RMSE change),3,-0.1237452030181884,-2.227580070495605,1.72233784198761,0.805186558780747
+KSRP_Campus,frozen: corrections added to GBDT,daily absolute loss,3,-22.047157287597656,-24.163646697998047,-20.07816505432129,1.1522699265916567e-100
+KSRP_Campus,frozen: corrections added to GBDT,daily squared loss (reported as RMSE change),3,-18.743492126464844,-40.97338104248047,-28.3369197845459,1.1112157675176144e-27
+KSRP_Campus,frozen: Kalman member added to GBDT + zero + affine,daily absolute loss,3,-1.8665627241134644,-2.4470574855804443,-1.3522130250930786,3.909975310235789e-10
+KSRP_Campus,frozen: Kalman member added to GBDT + zero + affine,daily squared loss (reported as RMSE change),3,-0.5003929138183594,-2.688223361968994,0.6189225912094116,0.2455586783112238
+KSRP_Campus,frozen: ensemble vs Kalman recalibration,daily absolute loss,3,-4.256670951843262,-5.354429721832275,-3.267876625061035,1.702480431108641e-14
+KSRP_Campus,frozen: ensemble vs Kalman recalibration,daily squared loss (reported as RMSE change),3,-4.778403282165527,-12.98728370666504,-5.903860569000244,1.72759277354478e-07
+KSRP_Campus,frozen: ensemble vs four-member rolling-weight ensemble,daily absolute loss,3,-1.6694163084030151,-2.5779712200164795,-0.9317668676376344,0.0001042336952342
+KSRP_Campus,frozen: ensemble vs four-member rolling-weight ensemble,daily squared loss (reported as RMSE change),3,-1.8276691436767576,-6.705907821655273,-1.1286922693252563,0.0159710076031101
+KSRP_Campus,frozen: Kalman recalibration vs GBDT alone,daily absolute loss,3,-19.0432186126709,-21.16257667541504,-17.052949905395508,7.56070719958654e-70
+KSRP_Campus,frozen: Kalman recalibration vs GBDT alone,daily squared loss (reported as RMSE change),3,-14.499187469482422,-32.71242904663086,-21.435760498046875,2.707252975099795e-19
+KSRP_Campus,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero, affine and Kalman members",mean loss of the worst 10 % of days,3,0.0676735971787634,-0.7360688033896307,1.1650501954716082,
+KSRP_Campus,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,3,-19.880562472983453,-23.74927297666184,-16.756479937365963,
+KSRP_Campus,retrained: ensemble vs GBDT alone,daily absolute loss,3,-9.501229286193848,-11.200541496276855,-7.902255535125732,2.432019092370161e-27
+KSRP_Campus,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),3,-11.006349563598633,-25.82967567443848,-15.961248397827148,1.4168035036671326e-15
+KSRP_Campus,retrained: zero member added to GBDT,daily absolute loss,3,-2.668708324432373,-3.569061040878296,-1.8490077257156368,3.739698215382046e-09
+KSRP_Campus,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),3,-2.0339667797088623,-6.389280319213867,-1.894934058189392,0.0004555931993868
+KSRP_Campus,retrained: affine member added to GBDT + zero,daily absolute loss,3,-4.01610803604126,-5.258715152740479,-2.7980027198791504,4.266369092085968e-10
+KSRP_Campus,retrained: affine member added to GBDT + zero,daily squared loss (reported as RMSE change),3,-5.9007110595703125,-15.289982795715332,-8.105446815490723,4.0233526186239415e-09
+KSRP_Campus,"retrained: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily absolute loss,3,-1.6739412546157837,-2.29338812828064,-1.0936042070388794,1.3579961130520638e-07
+KSRP_Campus,"retrained: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily squared loss (reported as RMSE change),3,-1.4300882816314695,-4.979145050048828,-0.8707383275032043,0.0070441365773828
+KSRP_Campus,retrained: anchor added to the ensemble,daily absolute loss,3,0.5108048319816589,-0.0010232399217784,1.0652064085006714,0.0603029000031441
+KSRP_Campus,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),3,0.8394718170166016,0.3819949626922607,3.092550754547119,0.0199193858188558
+KSRP_Campus,"retrained: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily absolute loss,3,-6.43684196472168,-7.911848545074463,-4.983811378479004,1.5168597716678e-15
+KSRP_Campus,"retrained: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily squared loss (reported as RMSE change),3,-8.695829391479492,-21.665525436401367,-12.30866813659668,5.984165131738848e-12
+KSRP_Campus,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,3,-3.275207281112671,-4.298924922943115,-2.3405425548553467,7.424776939311923e-10
+KSRP_Campus,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),3,-2.5305747985839844,-8.041945457458496,-1.999300837516785,0.0017208855682082
+KSRP_Campus,"retrained: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily absolute loss,3,-6.394143581390381,-8.014395713806152,-4.879759788513184,4.542777339203743e-14
+KSRP_Campus,"retrained: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily squared loss (reported as RMSE change),3,-9.33474349975586,-22.739620208740234,-13.023247718811035,3.71278153875064e-12
+KSRP_Campus,retrained: affine recalibration vs GBDT alone,daily absolute loss,3,-3.4370052814483643,-5.545046806335449,-1.3822546005249023,0.0011529492151609
+KSRP_Campus,retrained: affine recalibration vs GBDT alone,daily squared loss (reported as RMSE change),3,-2.131873369216919,-16.836225509643555,15.668596267700195,0.6245157962829965
+KSRP_Campus,retrained: ensemble vs affine recalibration,daily absolute loss,3,-6.2800703048706055,-7.645989894866943,-5.002255916595459,1.653825558029758e-19
+KSRP_Campus,retrained: ensemble vs affine recalibration,daily squared loss (reported as RMSE change),3,-9.067785263061523,-36.46482467651367,-5.702081203460693,0.0454805854853218
+KSRP_Campus,retrained: corrections added to GBDT,daily absolute loss,3,-7.96054220199585,-9.66385269165039,-6.361254215240479,3.1335237564756544e-19
+KSRP_Campus,retrained: corrections added to GBDT,daily squared loss (reported as RMSE change),3,-9.71519374847412,-23.62449836730957,-14.03009033203125,8.950933530344755e-14
+KSRP_Campus,retrained: Kalman member added to GBDT + zero + affine,daily absolute loss,3,-1.480271816253662,-2.1577017307281494,-0.8051398396492004,3.91726607985274e-05
+KSRP_Campus,retrained: Kalman member added to GBDT + zero + affine,daily squared loss (reported as RMSE change),3,-2.061641216278076,-6.2375264167785645,-2.3102245330810547,5.957459957098828e-05
+KSRP_Campus,retrained: ensemble vs Kalman recalibration,daily absolute loss,3,-4.988897800445557,-6.166271686553955,-3.841477155685425,1.5007500600004452e-16
+KSRP_Campus,retrained: ensemble vs Kalman recalibration,daily squared loss (reported as RMSE change),3,-5.211126804351807,-14.278236389160156,-6.642611980438232,2.989122227873663e-07
+KSRP_Campus,retrained: ensemble vs four-member rolling-weight ensemble,daily absolute loss,3,-1.4118337631225586,-2.360417366027832,-0.5778199434280396,0.0031292639713352
+KSRP_Campus,retrained: ensemble vs four-member rolling-weight ensemble,daily squared loss (reported as RMSE change),3,-3.488600254058838,-11.036267280578612,-3.620585203170776,0.0003752293813251
+KSRP_Campus,retrained: Kalman recalibration vs GBDT alone,daily absolute loss,3,-4.749268531799316,-6.661256790161133,-2.9044008255004883,1.904164156593121e-06
+KSRP_Campus,retrained: Kalman recalibration vs GBDT alone,daily squared loss (reported as RMSE change),3,-6.113821029663086,-17.448450088500977,-6.44264030456543,3.043504326506584e-05
+KSRP_Campus,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero, affine and Kalman members",mean loss of the worst 10 % of days,3,-1.8165890339315367,-3.394943829545588,-0.3619813240262042,
+KSRP_Campus,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,3,-14.922296908466526,-18.12953304792113,-12.016944167691744,
+KSRP_Campus,retrained vs frozen: ensemble,daily absolute loss,3,6.038576602935791,4.5030517578125,7.793198108673096,1.1665039711114136e-12
+KSRP_Campus,retrained vs frozen: gbdt+corrections,daily absolute loss,3,7.232163906097412,5.557392597198486,9.06356716156006,5.976381131803525e-15
+KSRP_Campus,retrained vs frozen: gbdt+zero,daily absolute loss,3,-0.55089271068573,-2.147070407867432,1.078678011894226,0.5128104274404666
+KSRP_Campus,retrained vs frozen: affine,daily absolute loss,3,10.177234649658203,8.122603416442871,12.444042205810549,5.731516383640339e-19
+KSRP_Campus,retrained vs frozen: gbdt,daily absolute loss,3,-9.179689407348633,-11.264487266540527,-7.072393417358398,2.7497996293273044e-18
+KSRP_Campus,retrained vs frozen: kalman,daily absolute loss,3,6.855788230895996,5.280316352844238,8.608649253845215,3.2548727566859333e-15
+KSRP_Campus,frozen ensemble vs retrained GBDT alone,daily absolute loss,3,-14.654861450195312,-17.152366638183594,-12.406217575073242,8.230663805932775e-33
+KSRP_Campus,frozen ensemble vs retrained GBDT + zero,daily absolute loss,3,-12.314797401428224,-14.651599884033203,-10.23113250732422,1.851382838724872e-25
+KSRP_Campus,frozen ensemble vs retrained affine recalibration,daily absolute loss,3,-11.617136001586914,-13.626558303833008,-9.764172554016112,7.239405560853643e-29
+KSRP_Campus,guard vs no guard: ensemble,daily absolute loss,1,2.517350196838379,1.2016791105270386,3.8464388847351074,0.0002595780964881
+KSRP_Campus,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,3.652927875518799,2.574342966079712,4.922605037689209,1.1775069643272902e-09
+KSRP_Campus,guard vs no guard: gbdt+corrections,daily absolute loss,1,3.0441653728485107,1.5373024940490725,4.438196182250977,7.48555123410888e-05
+KSRP_Campus,"no guard, retrained vs frozen: gbdt+corrections",daily absolute loss,1,4.199422359466553,3.1845414638519287,5.399557113647461,1.0148156286383277e-12
+KSRP_Campus,guard vs no guard: gbdt+zero,daily absolute loss,1,3.063347101211548,1.5836946964263916,4.6242547035217285,7.914116140014293e-05
+KSRP_Campus,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,-3.334482192993164,-4.736689567565918,-1.8780901432037356,6.424110765752141e-06
+KSRP_Campus,guard vs no guard: gbdt,daily absolute loss,1,4.037961483001709,2.4616410732269287,5.726732730865479,2.384233438256033e-06
+KSRP_Campus,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,-12.51795768737793,-14.333128929138184,-10.835028648376465,5.640852733527331e-45
+HEEW,frozen: ensemble vs GBDT alone,daily absolute loss,3,-20.02529525756836,-22.65110969543457,-17.704639434814453,8.75876606417259e-52
+HEEW,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),3,-17.217409133911133,-36.90037536621094,-26.651765823364254,2.5959639554127027e-32
+HEEW,frozen: zero member added to GBDT,daily absolute loss,3,-2.9817402362823486,-3.9073855876922607,-2.163573265075684,2.7114560526961244e-11
+HEEW,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),3,-0.681692361831665,-3.3591952323913574,0.931610107421875,0.2377899965341101
+HEEW,frozen: affine member added to GBDT + zero,daily absolute loss,3,-13.638238906860352,-15.980905532836914,-11.505119323730469,2.901809837180123e-31
+HEEW,frozen: affine member added to GBDT + zero,daily squared loss (reported as RMSE change),3,-13.091236114501951,-29.806188583374023,-19.84772491455078,6.772124436000986e-21
+HEEW,"frozen: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily absolute loss,3,-0.4133519530296325,-0.6837484836578369,-0.1553403735160827,0.0014662194265522
+HEEW,"frozen: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily squared loss (reported as RMSE change),3,-0.3574490547180176,-1.157795786857605,-0.2441458851099014,0.0022627630492859
+HEEW,frozen: anchor added to the ensemble,daily absolute loss,3,0.4715740978717804,0.2334959954023361,0.7802882194519043,0.0008385824094404
+HEEW,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),3,0.4762649536132812,0.4594225585460663,1.6335111856460571,0.0016232336786366
+HEEW,"frozen: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily absolute loss,3,-18.63513946533203,-20.9553165435791,-16.48062515258789,2.873412861340644e-61
+HEEW,"frozen: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily squared loss (reported as RMSE change),3,-16.20571517944336,-34.42364501953125,-25.60409164428711,2.3592112324886223e-37
+HEEW,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,3,-1.708551287651062,-2.8987679481506348,-0.5195958614349365,0.0049664831473076
+HEEW,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),3,-1.2073516845703125,-5.591191291809082,0.3629142940044403,0.1217729946958272
+HEEW,"frozen: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily absolute loss,3,-13.41866970062256,-15.306078910827637,-11.758822441101074,7.051276858478105e-51
+HEEW,"frozen: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily squared loss (reported as RMSE change),3,-12.016230583190918,-26.84660530090332,-18.91640281677246,7.726782517643837e-27
+HEEW,frozen: affine recalibration vs GBDT alone,daily absolute loss,3,-14.862977027893066,-17.651830673217773,-12.373414039611816,2.702228557878241e-26
+HEEW,frozen: affine recalibration vs GBDT alone,daily squared loss (reported as RMSE change),3,-12.90925121307373,-29.467090606689453,-19.06134605407715,1.406111991293851e-18
+HEEW,frozen: ensemble vs affine recalibration,daily absolute loss,3,-6.063541889190674,-7.157379150390625,-5.103379249572754,3.6262492983581106e-29
+HEEW,frozen: ensemble vs affine recalibration,daily squared loss (reported as RMSE change),3,-4.946750640869141,-11.969609260559082,-7.491476058959961,1.6489708335566074e-16
+HEEW,frozen: corrections added to GBDT,daily absolute loss,3,-19.69334983825684,-22.24554252624512,-17.35529899597168,5.619025305761262e-51
+HEEW,frozen: corrections added to GBDT,daily squared loss (reported as RMSE change),3,-16.920448303222656,-36.498233795166016,-26.19886779785156,8.819140945001608e-32
+HEEW,frozen: Kalman member added to GBDT + zero + affine,daily absolute loss,3,-4.153436660766602,-5.0028076171875,-3.3317906856536865,3.044861121987234e-20
+HEEW,frozen: Kalman member added to GBDT + zero + affine,daily squared loss (reported as RMSE change),3,-3.7498772144317623,-9.503820419311523,-5.330604553222656,4.175130577139469e-11
+HEEW,frozen: ensemble vs Kalman recalibration,daily absolute loss,3,-1.2009085416793823,-1.6417183876037598,-0.739548921585083,4.6489327058489243e-07
+HEEW,frozen: ensemble vs Kalman recalibration,daily squared loss (reported as RMSE change),3,-1.2143313884735107,-3.418666362762451,-1.4293779134750366,8.323130486392694e-07
+HEEW,frozen: ensemble vs four-member rolling-weight ensemble,daily absolute loss,3,-4.763503551483154,-5.714622020721436,-3.8809974193573,9.221293458733697e-24
+HEEW,frozen: ensemble vs four-member rolling-weight ensemble,daily squared loss (reported as RMSE change),3,-4.3641862869262695,-10.676583290100098,-6.549992084503174,8.2403456772513e-15
+HEEW,frozen: Kalman recalibration vs GBDT alone,daily absolute loss,3,-19.053199768066406,-21.74037742614746,-16.64984703063965,2.5096448645616376e-45
+HEEW,frozen: Kalman recalibration vs GBDT alone,daily squared loss (reported as RMSE change),3,-16.199796676635742,-34.929500579833984,-24.905746459960938,1.7222601933424083e-28
+HEEW,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero, affine and Kalman members",mean loss of the worst 10 % of days,3,-0.2680804263200387,-0.7530507050149856,0.3018386937696738,
+HEEW,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,3,-18.05106688490981,-22.728764091982445,-13.40423865186798,
+HEEW,retrained: ensemble vs GBDT alone,daily absolute loss,3,-22.651029586791992,-25.29567146301269,-20.294692993164062,5.183281558778929e-68
+HEEW,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),3,-21.46695327758789,-46.15420150756836,-32.09836196899414,1.0918576220187138e-27
+HEEW,retrained: zero member added to GBDT,daily absolute loss,3,-5.081145763397217,-6.560007572174072,-3.812552928924561,1.0141528254338792e-11
+HEEW,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),3,-3.818249702453613,-11.098190307617188,-4.249995708465576,3.635802325625047e-05
+HEEW,retrained: affine member added to GBDT + zero,daily absolute loss,3,-12.69428825378418,-14.670975685119627,-10.763358116149902,1.259306621955781e-33
+HEEW,retrained: affine member added to GBDT + zero,daily squared loss (reported as RMSE change),3,-12.684374809265137,-28.61240577697754,-19.18429183959961,1.0447747369680688e-19
+HEEW,"retrained: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily absolute loss,3,-0.6619495749473572,-0.9933762550354004,-0.3582302629947662,8.479660905899983e-05
+HEEW,"retrained: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily squared loss (reported as RMSE change),3,-0.7041871547698975,-2.023935317993164,-0.8268085718154907,6.03799148378366e-06
+HEEW,retrained: anchor added to the ensemble,daily absolute loss,3,0.5775063633918762,0.302687406539917,0.94406658411026,0.0007223814809564
+HEEW,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),3,0.4883408546447754,0.267128586769104,1.8520655632019043,0.0197420226917955
+HEEW,"retrained: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily absolute loss,3,-18.908870697021484,-21.08403205871582,-17.02478790283203,6.295794262442879e-73
+HEEW,"retrained: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily squared loss (reported as RMSE change),3,-17.17652702331543,-36.286014556884766,-27.305513381958008,2.9124705106296667e-39
+HEEW,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,3,-4.614752769470215,-6.352816104888916,-3.160658597946167,7.460976348565538e-09
+HEEW,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),3,-5.180203914642334,-15.13742733001709,-5.578256607055664,2.204428485159928e-05
+HEEW,"retrained: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily absolute loss,3,-12.23103141784668,-13.881200790405272,-10.77378749847412,7.556314517692344e-51
+HEEW,"retrained: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily squared loss (reported as RMSE change),3,-10.951680183410645,-24.85684585571289,-17.144805908203125,4.513505773342106e-24
+HEEW,retrained: affine recalibration vs GBDT alone,daily absolute loss,3,-15.761380195617676,-18.492876052856445,-13.364194869995115,2.0792388636136696e-31
+HEEW,retrained: affine recalibration vs GBDT alone,daily squared loss (reported as RMSE change),3,-15.324544906616213,-35.097103118896484,-22.581037521362305,1.0670965098572925e-17
+HEEW,retrained: ensemble vs affine recalibration,daily absolute loss,3,-8.178729057312012,-9.608274459838867,-6.8143181800842285,2.9830667642354933e-28
+HEEW,retrained: ensemble vs affine recalibration,daily squared loss (reported as RMSE change),3,-7.254057884216309,-17.091535568237305,-11.191701889038086,3.672737014447401e-18
+HEEW,retrained: corrections added to GBDT,daily absolute loss,3,-22.13560676574707,-24.66669273376465,-19.78379440307617,6.999122869952744e-66
+HEEW,retrained: corrections added to GBDT,daily squared loss (reported as RMSE change),3,-20.91000747680664,-45.54470443725586,-31.529727935791016,6.048698243352688e-27
+HEEW,retrained: Kalman member added to GBDT + zero + affine,daily absolute loss,3,-6.039840221405029,-7.26691198348999,-4.931476593017578,1.990422566211604e-21
+HEEW,retrained: Kalman member added to GBDT + zero + affine,daily squared loss (reported as RMSE change),3,-5.8247270584106445,-14.63539981842041,-8.5481538772583,7.994617804417503e-13
+HEEW,retrained: ensemble vs Kalman recalibration,daily absolute loss,3,-1.2813317775726318,-1.7912133932113647,-0.7594629526138306,1.7220025217498977e-06
+HEEW,retrained: ensemble vs Kalman recalibration,daily squared loss (reported as RMSE change),3,-1.1698484420776367,-3.4655442237854004,-1.2656664848327637,4.3568059167965815e-05
+HEEW,retrained: ensemble vs four-member rolling-weight ensemble,daily absolute loss,3,-5.632927417755127,-6.6934990882873535,-4.698824882507324,3.3418924983450665e-25
+HEEW,retrained: ensemble vs four-member rolling-weight ensemble,daily squared loss (reported as RMSE change),3,-5.1808061599731445,-12.666797637939451,-7.830773830413818,7.02756448610726e-16
+HEEW,retrained: Kalman recalibration vs GBDT alone,daily absolute loss,3,-21.64706802368164,-24.34842300415039,-19.19773292541504,1.4518173893980901e-58
+HEEW,retrained: Kalman recalibration vs GBDT alone,daily squared loss (reported as RMSE change),3,-20.5373592376709,-44.43221664428711,-30.570707321166992,1.792710998722088e-24
+HEEW,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero, affine and Kalman members",mean loss of the worst 10 % of days,3,-0.5355805857502727,-1.2211323298337249,0.1419760138172033,
+HEEW,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,3,-22.914995964355168,-28.466153526654896,-17.942813051101204,
+HEEW,retrained vs frozen: ensemble,daily absolute loss,3,2.87890887260437,1.6659239530563354,4.146204948425293,5.495752355977218e-06
+HEEW,retrained vs frozen: gbdt+corrections,daily absolute loss,3,3.1363675594329834,1.9061391353607176,4.4513468742370605,1.920371563868469e-06
+HEEW,retrained vs frozen: gbdt+zero,daily absolute loss,3,4.069495677947998,2.070789098739624,6.248083591461182,0.0002019757704264
+HEEW,retrained vs frozen: affine,daily absolute loss,3,5.248819828033447,3.657307386398315,6.980312824249268,3.0173345549173954e-09
+HEEW,retrained vs frozen: gbdt,daily absolute loss,3,6.371293067932129,4.348382472991943,8.683501243591309,2.3623659032575343e-08
+HEEW,retrained vs frozen: kalman,daily absolute loss,3,2.962721586227417,1.8244907855987549,4.192033767700195,3.3698815357622278e-06
+HEEW,frozen ensemble vs retrained GBDT alone,daily absolute loss,3,-24.815519332885746,-27.9360408782959,-22.2370662689209,2.921821865372993e-62
+HEEW,frozen ensemble vs retrained GBDT + zero,daily absolute loss,3,-20.790786743164062,-23.416017532348636,-18.56222915649414,3.003699429821765e-56
+HEEW,frozen ensemble vs retrained affine recalibration,daily absolute loss,3,-10.748207092285156,-12.76639461517334,-8.983052253723145,1.4512153954738554e-25
+HEEW,guard vs no guard: ensemble,daily absolute loss,1,-4.682579517364502,-6.460437297821045,-2.954070568084717,4.846342846390553e-07
+HEEW,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,7.244565963745117,5.191529750823975,9.4027681350708,7.126549772967642e-11
+HEEW,guard vs no guard: gbdt+corrections,daily absolute loss,1,-5.207380294799805,-7.2932868003845215,-3.322570323944092,3.5569943432455693e-07
+HEEW,"no guard, retrained vs frozen: gbdt+corrections",daily absolute loss,1,8.058672904968262,5.756682872772217,10.443968772888184,4.2915241771355225e-11
+HEEW,guard vs no guard: gbdt+zero,daily absolute loss,1,-5.618741989135742,-7.952788829803467,-3.2667219638824463,1.7441202442432905e-05
+HEEW,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,10.013346672058104,6.938117980957031,13.202878952026367,3.993216141441062e-09
+HEEW,guard vs no guard: gbdt,daily absolute loss,1,-2.067936897277832,-4.77321720123291,0.5414093732833862,0.1553370489179642
+HEEW,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,8.41003704071045,5.561732292175293,11.806781768798828,4.7042436074288446e-07
+Building_59,frozen: ensemble vs GBDT alone,daily absolute loss,5,-21.8221435546875,-28.80215072631836,-15.568229675292969,4.4803023233005285e-10
+Building_59,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-21.869295120239254,-59.56020736694336,-23.36504173278809,6.872530267033258e-05
+Building_59,frozen: zero member added to GBDT,daily absolute loss,5,-20.477357864379883,-27.761079788208008,-15.064739227294922,7.753942139127132e-10
+Building_59,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-19.015819549560547,-53.41301727294922,-19.861263275146484,0.0001877387681664
+Building_59,frozen: affine member added to GBDT + zero,daily absolute loss,5,4.9804368019104,1.1573508977890017,9.739154815673828,0.0263819052044507
+Building_59,frozen: affine member added to GBDT + zero,daily squared loss (reported as RMSE change),5,3.995728492736816,-0.1791977286338806,18.206270217895508,0.0974178071864863
+Building_59,"frozen: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily absolute loss,5,0.074472889304161,-0.6044743657112122,0.6947250366210938,0.8218423023586968
+Building_59,"frozen: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily squared loss (reported as RMSE change),5,0.70037841796875,-0.4789081811904907,4.047970294952393,0.257463103185828
+Building_59,frozen: anchor added to the ensemble,daily absolute loss,5,-1.327223300933838,-3.1538796424865723,0.5664622187614441,0.1450364992740258
+Building_59,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,0.9846687316894532,-1.8503103256225584,7.571343898773193,0.4296415040048972
+Building_59,"frozen: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily absolute loss,5,-20.80443000793457,-28.38848304748535,-14.955609321594238,1.8933457140697323e-09
+Building_59,"frozen: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily squared loss (reported as RMSE change),5,-21.66879272460937,-59.989501953125,-22.3873233795166,8.477613045279757e-05
+Building_59,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-1.2850642204284668,-3.0180411338806152,0.1280640065670013,0.1167013738201934
+Building_59,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.2559661865234375,-3.363396167755127,1.9178298711776731,0.6992525062439631
+Building_59,"frozen: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily absolute loss,5,-12.30861473083496,-17.710168838500977,-7.836504936218262,1.5444181819999842e-06
+Building_59,"frozen: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily squared loss (reported as RMSE change),5,-16.494888305664062,-48.74456405639648,-17.006990432739258,0.0002735809000427
+Building_59,frozen: affine recalibration vs GBDT alone,daily absolute loss,5,-13.7172269821167,-20.77405166625977,-7.420318126678467,8.452153753353404e-05
+Building_59,frozen: affine recalibration vs GBDT alone,daily squared loss (reported as RMSE change),5,-13.164531707763672,-43.17081832885742,-9.715168952941896,0.0043837274753111
+Building_59,frozen: ensemble vs affine recalibration,daily absolute loss,5,-9.393434524536133,-12.85430908203125,-6.351682186126709,3.3592917876938456e-08
+Building_59,frozen: ensemble vs affine recalibration,daily squared loss (reported as RMSE change),5,-10.02444076538086,-30.9305477142334,-9.590949058532717,0.0003748391653157
+Building_59,frozen: corrections added to GBDT,daily absolute loss,5,-21.880321502685547,-28.79644203186035,-15.737669944763184,4.892577685748844e-10
+Building_59,frozen: corrections added to GBDT,daily squared loss (reported as RMSE change),5,-22.41270446777344,-61.47361373901367,-22.94151496887207,6.844033692255626e-05
+Building_59,frozen: Kalman member added to GBDT + zero + affine,daily absolute loss,5,-6.424689769744873,-10.42800521850586,-3.117725372314453,0.0005156158133278
+Building_59,frozen: Kalman member added to GBDT + zero + affine,daily squared loss (reported as RMSE change),5,-7.875549793243408,-26.63334846496582,-6.777892589569092,0.0033138252815527
+Building_59,frozen: ensemble vs Kalman recalibration,daily absolute loss,5,0.6243327260017395,-1.0771560668945312,2.190275192260742,0.4411354358733829
+Building_59,frozen: ensemble vs Kalman recalibration,daily squared loss (reported as RMSE change),5,1.5881657600402832,-0.9182026982307434,8.08083438873291,0.163898260789598
+Building_59,frozen: ensemble vs four-member rolling-weight ensemble,daily absolute loss,5,-7.432855129241943,-11.21813678741455,-4.133931636810303,4.5048525356703046e-05
+Building_59,frozen: ensemble vs four-member rolling-weight ensemble,daily squared loss (reported as RMSE change),5,-10.053414344787598,-31.25496482849121,-9.872782707214355,0.000427254943732
+Building_59,frozen: Kalman recalibration vs GBDT alone,daily absolute loss,5,-22.30720329284668,-30.481971740722656,-16.241321563720703,4.684874426601778e-10
+Building_59,frozen: Kalman recalibration vs GBDT alone,daily squared loss (reported as RMSE change),5,-23.090744018554688,-63.404815673828125,-23.863740921020508,6.304195326286451e-05
+Building_59,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero, affine and Kalman members",mean loss of the worst 10 % of days,5,0.6474507357878467,-0.6885122741216333,2.425688398602827,
+Building_59,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-22.38618036747099,-35.81351894381777,-12.768290243964,
+Building_59,retrained: ensemble vs GBDT alone,daily absolute loss,5,-6.218994617462158,-9.66557788848877,-3.0547304153442383,0.0001611846243281
+Building_59,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-7.399445533752441,-22.183469772338867,-7.932502269744873,0.0001458264325741
+Building_59,retrained: zero member added to GBDT,daily absolute loss,5,-0.4545483291149139,-1.757857322692871,0.8565594553947449,0.5185417485524269
+Building_59,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-0.3772556781768799,-3.2069647312164307,1.9632986783981323,0.5773935094820107
+Building_59,retrained: affine member added to GBDT + zero,daily absolute loss,5,-2.462371587753296,-5.093814373016357,-0.2611050903797149,0.044692936053526
+Building_59,retrained: affine member added to GBDT + zero,daily squared loss (reported as RMSE change),5,-1.9888103008270264,-9.86907958984375,1.7807921171188354,0.1706125050181512
+Building_59,"retrained: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily absolute loss,5,-0.8484826683998108,-1.819774508476257,0.0088678114116191,0.0633883144418169
+Building_59,"retrained: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily squared loss (reported as RMSE change),5,-0.6630182266235352,-3.5384132862091064,0.6237093806266785,0.2178196469346331
+Building_59,retrained: anchor added to the ensemble,daily absolute loss,5,-2.167510271072388,-4.4150238037109375,-0.1971911191940307,0.0484342831776756
+Building_59,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,0.3128767013549804,-2.3508613109588623,4.017458438873291,0.6944231631217527
+Building_59,"retrained: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily absolute loss,5,-5.071911334991455,-7.753926277160644,-2.42033052444458,0.0002024204734345
+Building_59,"retrained: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily squared loss (reported as RMSE change),5,-6.447929382324219,-19.762903213500977,-6.825428485870361,0.0001272845041529
+Building_59,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-1.2083702087402344,-3.2792532444000244,0.6739516854286194,0.2357228203398538
+Building_59,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-1.0170936584472656,-5.321882247924805,0.5952813029289246,0.1955466481192069
+Building_59,"retrained: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily absolute loss,5,-6.525973320007324,-9.25748348236084,-3.750755786895752,4.509143090056779e-06
+Building_59,"retrained: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily squared loss (reported as RMSE change),5,-7.458847999572754,-21.63573265075684,-8.254515647888184,3.4111754395102545e-05
+Building_59,retrained: affine recalibration vs GBDT alone,daily absolute loss,5,-1.1160321235656738,-4.974648952484131,2.0700316429138184,0.5316635502740359
+Building_59,retrained: affine recalibration vs GBDT alone,daily squared loss (reported as RMSE change),5,-1.7712831497192385,-11.417576789855955,4.184505939483643,0.3961910577062946
+Building_59,retrained: ensemble vs affine recalibration,daily absolute loss,5,-5.160555839538574,-7.245304107666016,-3.207340955734253,3.577821879004796e-07
+Building_59,retrained: ensemble vs affine recalibration,daily squared loss (reported as RMSE change),5,-5.729645729064941,-20.28935813903809,-4.686755180358887,0.0046289207207369
+Building_59,retrained: corrections added to GBDT,daily absolute loss,5,-5.416470050811768,-8.635455131530762,-2.275890350341797,0.0007888200668026
+Building_59,retrained: corrections added to GBDT,daily squared loss (reported as RMSE change),5,-6.7813873291015625,-20.323257446289062,-7.17401933670044,0.0001392122549483
+Building_59,retrained: Kalman member added to GBDT + zero + affine,daily absolute loss,5,-2.585880994796753,-4.3584980964660645,-0.9343720078468324,0.002360773380091
+Building_59,retrained: Kalman member added to GBDT + zero + affine,daily squared loss (reported as RMSE change),5,-4.5296549797058105,-16.029020309448242,-3.0864193439483643,0.0096517464343157
+Building_59,retrained: ensemble vs Kalman recalibration,daily absolute loss,5,-0.0374675430357456,-1.5830507278442385,1.534929871559143,0.962304453204598
+Building_59,retrained: ensemble vs Kalman recalibration,daily squared loss (reported as RMSE change),5,2.004313468933105,0.4774396121501922,8.525697708129883,0.0511623946583135
+Building_59,retrained: ensemble vs four-member rolling-weight ensemble,daily absolute loss,5,-4.27122974395752,-6.135390758514404,-2.3962435722351074,6.282282569289891e-06
+Building_59,retrained: ensemble vs four-member rolling-weight ensemble,daily squared loss (reported as RMSE change),5,-6.154501438140869,-20.708223342895508,-5.707504749298096,0.0011915138579727
+Building_59,retrained: Kalman recalibration vs GBDT alone,daily absolute loss,5,-6.183844089508057,-10.05856704711914,-2.64766263961792,0.0017695837427716
+Building_59,retrained: Kalman recalibration vs GBDT alone,daily squared loss (reported as RMSE change),5,-9.218978881835938,-28.60952377319336,-9.460563659667969,0.000517698581557
+Building_59,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero, affine and Kalman members",mean loss of the worst 10 % of days,5,-0.7126212049226588,-2.5000775694657382,1.1929295818072152,
+Building_59,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-7.993165472469633,-12.948984724898622,-4.227874157108657,
+Building_59,retrained vs frozen: ensemble,daily absolute loss,5,6.334949970245361,1.9170310497283936,11.606525421142578,0.0136373083928461
+Building_59,retrained vs frozen: gbdt+corrections,daily absolute loss,5,7.324771881103516,2.591047763824463,12.90781021118164,0.0061620609669191
+Building_59,retrained vs frozen: gbdt+zero,daily absolute loss,5,10.962320327758787,5.21407413482666,17.889755249023438,0.0007944098458631
+Building_59,retrained vs frozen: affine,daily absolute loss,5,1.5890042781829834,-1.8083863258361816,5.482330322265625,0.3868773921305398
+Building_59,retrained vs frozen: gbdt,daily absolute loss,5,-11.356903076171877,-18.925050735473636,-4.078222274780273,0.0027210028947103
+Building_59,retrained vs frozen: kalman,daily absolute loss,5,7.038937568664551,2.9357619285583496,12.381959915161133,0.0039253007896604
+Building_59,frozen ensemble vs retrained GBDT alone,daily absolute loss,5,-11.806037902832031,-17.494739532470703,-7.109999179840088,1.384917045392844e-05
+Building_59,frozen ensemble vs retrained GBDT + zero,daily absolute loss,5,-11.403324127197266,-17.242446899414062,-6.489661693572998,2.5370200589553308e-05
+Building_59,frozen ensemble vs retrained affine recalibration,daily absolute loss,5,-10.81065559387207,-16.209550857543945,-6.31492280960083,1.2289301385055446e-05
+Building_59,guard vs no guard: ensemble,daily absolute loss,1,-1.6457856893539429,-4.677393913269043,2.286760091781616,0.3632212726666872
+Building_59,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,8.288784980773926,4.977591037750244,12.03137493133545,1.108369125483904e-05
+Building_59,guard vs no guard: gbdt+corrections,daily absolute loss,1,-2.3212690353393555,-5.982670307159424,2.081888437271118,0.2561269327011843
+Building_59,"no guard, retrained vs frozen: gbdt+corrections",daily absolute loss,1,10.149901390075684,5.890434265136719,15.24279499053955,2.16756158385824e-05
+Building_59,guard vs no guard: gbdt+zero,daily absolute loss,1,-8.569808959960938,-13.024446487426758,-3.581916332244873,0.0006924969070303
+Building_59,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,21.286357879638672,14.937786102294922,27.680156707763672,6.178218626472866e-11
+Building_59,guard vs no guard: gbdt,daily absolute loss,1,-11.041220664978027,-15.908209800720217,-6.822844982147217,2.3402801892733387e-06
+Building_59,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,-0.1931381672620773,-7.245519638061523,6.4347076416015625,0.9565558909650204
+NEST_UMAR,frozen: ensemble vs GBDT alone,daily absolute loss,5,-10.595855712890623,-12.30336856842041,-8.738422393798828,3.120198078624681e-28
+NEST_UMAR,frozen: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-1.3547301292419434,-4.122993469238281,-1.1549091339111328,0.0004295080803037
+NEST_UMAR,frozen: zero member added to GBDT,daily absolute loss,5,-7.913383483886719,-10.009181022644045,-5.6762285232543945,3.811985241491032e-11
+NEST_UMAR,frozen: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-0.3484785556793213,-2.014609098434448,0.8935602903366089,0.3848841593639863
+NEST_UMAR,frozen: affine member added to GBDT + zero,daily absolute loss,5,-1.7244150638580322,-2.550941705703736,-0.9867613315582277,3.063703164626424e-05
+NEST_UMAR,frozen: affine member added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.3596186637878418,-1.0809614658355713,-0.421442300081253,3.5338065601926045e-05
+NEST_UMAR,"frozen: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily absolute loss,5,0.133908212184906,-0.1612590998411178,0.3360627889633178,0.3330502546327524
+NEST_UMAR,"frozen: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily squared loss (reported as RMSE change),5,-0.302809476852417,-1.3137933015823364,-0.1152240559458732,0.0516330203625319
+NEST_UMAR,frozen: anchor added to the ensemble,daily absolute loss,5,0.4979086518287658,0.0015476457774639,0.9643018841743468,0.0530588450692819
+NEST_UMAR,frozen: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,0.110173225402832,-0.0186804812401533,0.5032068490982056,0.0978685748490188
+NEST_UMAR,"frozen: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily absolute loss,5,-10.56827163696289,-12.252347946166992,-8.677940368652344,1.6450497617639288e-27
+NEST_UMAR,"frozen: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily squared loss (reported as RMSE change),5,-1.4849424362182615,-4.403103351593018,-1.1404011249542236,0.0004261322972754
+NEST_UMAR,frozen: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-0.0308414306491613,-0.7535536289215088,0.6155382990837097,0.9328252710782832
+NEST_UMAR,frozen: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,0.1321792602539062,-0.8144577741622925,1.2794276475906372,0.6146213047006331
+NEST_UMAR,"frozen: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily absolute loss,5,-2.1526849269866943,-3.418519735336304,-0.993295669555664,0.000577105174513
+NEST_UMAR,"frozen: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily squared loss (reported as RMSE change),5,-0.713568925857544,-2.3332841396331787,-0.6908922791481018,0.0003793666930283
+NEST_UMAR,frozen: affine recalibration vs GBDT alone,daily absolute loss,5,16.537412643432617,12.296884536743164,21.363130569458008,1.883744970604603e-11
+NEST_UMAR,frozen: affine recalibration vs GBDT alone,daily squared loss (reported as RMSE change),5,8.965408325195312,12.098658561706545,26.32489776611328,6.461895577708993e-07
+NEST_UMAR,frozen: ensemble vs affine recalibration,daily absolute loss,5,-23.28287696838379,-27.549135208129883,-19.2470703125,3.7678334091940325e-24
+NEST_UMAR,frozen: ensemble vs affine recalibration,daily squared loss (reported as RMSE change),5,-9.471016883850098,-24.53766441345215,-12.079313278198242,1.6144663072132133e-08
+NEST_UMAR,frozen: corrections added to GBDT,daily absolute loss,5,-10.715412139892578,-12.444055557250977,-8.747086524963379,1.6980816691537127e-28
+NEST_UMAR,frozen: corrections added to GBDT,daily squared loss (reported as RMSE change),5,-1.0551095008850098,-3.403567314147949,-0.6471896767616272,0.0055956466913209
+NEST_UMAR,frozen: Kalman member added to GBDT + zero + affine,daily absolute loss,5,-1.341538429260254,-2.326896905899048,-0.4116967618465423,0.006104015492229
+NEST_UMAR,frozen: Kalman member added to GBDT + zero + affine,daily squared loss (reported as RMSE change),5,-0.3507375717163086,-1.0866947174072266,-0.3702212274074554,0.0001420754705165
+NEST_UMAR,frozen: ensemble vs Kalman recalibration,daily absolute loss,5,-24.16030502319336,-29.773923873901367,-19.43372344970703,1.4199904193783326e-20
+NEST_UMAR,frozen: ensemble vs Kalman recalibration,daily squared loss (reported as RMSE change),5,-17.420942306518555,-44.42194366455078,-21.102685928344727,2.867234651066773e-07
+NEST_UMAR,frozen: ensemble vs four-member rolling-weight ensemble,daily absolute loss,5,-1.3798881769180298,-2.4244589805603027,-0.3139705061912536,0.0119326561606796
+NEST_UMAR,frozen: ensemble vs four-member rolling-weight ensemble,daily squared loss (reported as RMSE change),5,-0.6360769271850586,-1.871923327445984,-0.5101109147071838,0.000516511790591
+NEST_UMAR,frozen: Kalman recalibration vs GBDT alone,daily absolute loss,5,17.885696411132812,12.955391883850098,23.47745132446289,4.679368224100622e-10
+NEST_UMAR,frozen: Kalman recalibration vs GBDT alone,daily squared loss (reported as RMSE change),5,19.455551147460938,28.456565856933597,62.30558776855469,1.0346675343436849e-06
+NEST_UMAR,"frozen: worst 10 % of days, LSTM-CNN added to GBDT + zero, affine and Kalman members",mean loss of the worst 10 % of days,5,-0.1966549771139414,-0.6388557230310334,0.2812047146840504,
+NEST_UMAR,"frozen: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-4.818805530223447,-7.029699170004733,-2.39951708666659,
+NEST_UMAR,retrained: ensemble vs GBDT alone,daily absolute loss,5,-5.918229579925537,-7.426545143127441,-4.63046932220459,1.730836213155224e-15
+NEST_UMAR,retrained: ensemble vs GBDT alone,daily squared loss (reported as RMSE change),5,-1.1388421058654783,-3.112119197845459,-1.5400230884552002,2.3386666729937523e-08
+NEST_UMAR,retrained: zero member added to GBDT,daily absolute loss,5,-2.1133878231048584,-3.221506118774414,-1.075495958328247,0.0001867174707725
+NEST_UMAR,retrained: zero member added to GBDT,daily squared loss (reported as RMSE change),5,-0.0242352485656738,-0.4286816120147705,0.3223242163658142,0.8045748080260614
+NEST_UMAR,retrained: affine member added to GBDT + zero,daily absolute loss,5,-2.1065077781677246,-2.7889292240142822,-1.528026819229126,1.9596258624313976e-10
+NEST_UMAR,retrained: affine member added to GBDT + zero,daily squared loss (reported as RMSE change),5,-0.4246652126312256,-1.1112658977508545,-0.602595865726471,1.5331990673611082e-10
+NEST_UMAR,"retrained: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily absolute loss,5,0.0402630120515823,-0.2296431213617324,0.2648849487304687,0.7630954583403868
+NEST_UMAR,"retrained: LSTM-CNN added to GBDT + zero, affine and Kalman members",daily squared loss (reported as RMSE change),5,-0.3278613090515136,-1.3252321481704712,-0.1353636533021927,0.0357070169925835
+NEST_UMAR,retrained: anchor added to the ensemble,daily absolute loss,5,0.0915446951985359,-0.6517958641052246,0.704369306564331,0.7946465099373792
+NEST_UMAR,retrained: anchor added to the ensemble,daily squared loss (reported as RMSE change),5,0.0269651412963867,-0.2202652692794799,0.326946347951889,0.6907755971149115
+NEST_UMAR,"retrained: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily absolute loss,5,-3.1059110164642334,-4.410086154937744,-1.9015626907348635,4.307640036448973e-07
+NEST_UMAR,"retrained: zero, affine and Kalman members added to GBDT + LSTM-CNN",daily squared loss (reported as RMSE change),5,-0.6504356861114502,-1.969569206237793,-0.6843437552452087,2.001352702911002e-05
+NEST_UMAR,retrained: GBDT + LSTM-CNN vs GBDT alone,daily absolute loss,5,-2.9024667739868164,-4.003758907318115,-2.010298728942871,4.612732627350735e-08
+NEST_UMAR,retrained: GBDT + LSTM-CNN vs GBDT alone,daily squared loss (reported as RMSE change),5,-0.4916071891784668,-1.6753031015396118,-0.3411234319210052,0.0043829721286809
+NEST_UMAR,"retrained: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily absolute loss,5,-1.658430814743042,-2.7535600662231445,-0.5257540941238403,0.0028343018054576
+NEST_UMAR,"retrained: ensemble vs rolling-weight blend of GBDT, LSTM-CNN and zero member",daily squared loss (reported as RMSE change),5,-0.6935179233551025,-1.9612338542938232,-0.8469060063362122,2.412885597163079e-06
+NEST_UMAR,retrained: affine recalibration vs GBDT alone,daily absolute loss,5,24.869829177856445,18.75250816345215,31.98932647705078,2.944087108946097e-12
+NEST_UMAR,retrained: affine recalibration vs GBDT alone,daily squared loss (reported as RMSE change),5,57.33913040161133,17.879425048828125,398.7609558105469,0.2266125266232976
+NEST_UMAR,retrained: ensemble vs affine recalibration,daily absolute loss,5,-24.656126022338867,-30.38899040222168,-19.95615005493164,9.587144820430677e-18
+NEST_UMAR,retrained: ensemble vs affine recalibration,daily squared loss (reported as RMSE change),5,-37.166839599609375,-162.18008422851562,-7.931601047515869,0.2195046113446813
+NEST_UMAR,retrained: corrections added to GBDT,daily absolute loss,5,-5.956095218658447,-7.3515424728393555,-4.650749683380127,3.8317955171463496e-16
+NEST_UMAR,retrained: corrections added to GBDT,daily squared loss (reported as RMSE change),5,-0.8136510848999023,-2.2854607105255127,-1.0168238878250122,2.122499681249073e-06
+NEST_UMAR,retrained: Kalman member added to GBDT + zero + affine,daily absolute loss,5,-1.8583091497421265,-2.7616777420043945,-0.9795872569084167,5.499180612984726e-05
+NEST_UMAR,retrained: Kalman member added to GBDT + zero + affine,daily squared loss (reported as RMSE change),5,-0.3665030002593994,-1.1602414846420288,-0.379974365234375,0.0003763356847207
+NEST_UMAR,retrained: ensemble vs Kalman recalibration,daily absolute loss,5,-22.52265167236328,-27.304872512817383,-18.067041397094727,1.8077779913039126e-20
+NEST_UMAR,retrained: ensemble vs Kalman recalibration,daily squared loss (reported as RMSE change),5,-7.821750640869141,-22.21012115478516,-8.84400749206543,1.1665412405025485e-05
+NEST_UMAR,retrained: ensemble vs four-member rolling-weight ensemble,daily absolute loss,5,-0.6487942934036255,-1.6028027534484863,0.2741917073726654,0.17574064241807
+NEST_UMAR,retrained: ensemble vs four-member rolling-weight ensemble,daily squared loss (reported as RMSE change),5,-0.4361450672149658,-1.4337892532348633,-0.3846674561500549,0.0011195331290571
+NEST_UMAR,retrained: Kalman recalibration vs GBDT alone,daily absolute loss,5,21.431324005126957,16.194059371948242,27.455551147460938,6.907365325296448e-13
+NEST_UMAR,retrained: Kalman recalibration vs GBDT alone,daily squared loss (reported as RMSE change),5,7.249975204467773,7.912467956542969,23.00019836425781,0.0001507742008951
+NEST_UMAR,"retrained: worst 10 % of days, LSTM-CNN added to GBDT + zero, affine and Kalman members",mean loss of the worst 10 % of days,5,-0.3166598158533484,-0.7658828695212524,0.1972671664955966,
+NEST_UMAR,"retrained: worst 10 % of days, ensemble vs GBDT alone",mean loss of the worst 10 % of days,5,-3.83680388884019,-6.251034812843227,-1.8813500406040853,
+NEST_UMAR,retrained vs frozen: ensemble,daily absolute loss,5,0.7638797163963318,0.2183431088924408,1.407000184059143,0.0112267520994663
+NEST_UMAR,retrained vs frozen: gbdt+corrections,daily absolute loss,5,0.8582022190093994,0.2643462717533111,1.5141843557357788,0.0077461749873202
+NEST_UMAR,retrained vs frozen: gbdt+zero,daily absolute loss,5,1.7850143909454346,0.8556147217750549,2.7638189792633057,0.0003378132366041
+NEST_UMAR,retrained vs frozen: affine,daily absolute loss,5,2.600441694259644,0.2645527422428131,5.883622169494629,0.0731482648536382
+NEST_UMAR,retrained vs frozen: gbdt,daily absolute loss,5,-4.245969295501709,-6.11695671081543,-2.025019645690918,0.0001044409217857
+NEST_UMAR,retrained vs frozen: kalman,daily absolute loss,5,-1.3659859895706177,-2.782405138015747,-0.081324003636837,0.0517778142254563
+NEST_UMAR,frozen ensemble vs retrained GBDT alone,daily absolute loss,5,-6.631453514099121,-8.37063217163086,-5.160187244415283,7.032042416640912e-15
+NEST_UMAR,frozen ensemble vs retrained GBDT + zero,daily absolute loss,5,-4.6156110763549805,-6.117196559906006,-3.3955018520355225,8.873594726582795e-11
+NEST_UMAR,frozen ensemble vs retrained affine recalibration,daily absolute loss,5,-25.227298736572266,-31.67447280883789,-20.18450355529785,1.841129307658763e-18
+NEST_UMAR,guard vs no guard: ensemble,daily absolute loss,1,-2.0183145999908447,-3.006439208984375,-1.1169496774673462,2.9592142259868725e-05
+NEST_UMAR,"no guard, retrained vs frozen: ensemble",daily absolute loss,1,2.534389972686768,1.6001017093658447,3.6270129680633545,8.135374484184651e-07
+NEST_UMAR,guard vs no guard: gbdt+corrections,daily absolute loss,1,-1.5174248218536377,-2.288547992706299,-0.8323341608047485,4.043773731207213e-05
+NEST_UMAR,"no guard, retrained vs frozen: gbdt+corrections",daily absolute loss,1,2.267977476119995,1.5223594903945925,3.045944929122925,7.1718763187438845e-09
+NEST_UMAR,guard vs no guard: gbdt+zero,daily absolute loss,1,-3.4465677738189697,-5.238733768463135,-1.8500605821609497,4.343786231377319e-05
+NEST_UMAR,"no guard, retrained vs frozen: gbdt+zero",daily absolute loss,1,5.343324184417725,4.088258266448975,6.92705774307251,2.7851633639647413e-13
+NEST_UMAR,guard vs no guard: gbdt,daily absolute loss,1,-80.19349670410156,-139.55987548828125,-37.13351440429688,0.0031519518363024
+NEST_UMAR,"no guard, retrained vs frozen: gbdt",daily absolute loss,1,385.1958618164063,155.09193420410156,670.7926025390625,0.0034549403810528

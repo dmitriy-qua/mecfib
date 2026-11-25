@@ -1,0 +1,32 @@
+{
+  "module": "forecasting.consumption.adaptive.run",
+  "params": {
+    "n_samples": 0,
+    "no_plots": true,
+    "non_adaptive_only": false,
+    "evaluation_frequency": 365,
+    "lang": "en",
+    "seed": 44,
+    "protocol": "clean",
+    "members": "",
+    "mae_threshold": 0,
+    "rmse_threshold": 0,
+    "mase_threshold": 0,
+    "retrain_window": 8760,
+    "window_stride_hours": 0,
+    "start_hour_offset": 0,
+    "no_tft": true,
+    "weights_mode": "rolling",
+    "roll_window": 42,
+    "trigger": "scheduled",
+    "retrain_accept": true,
+    "gbdt_retrain_mode": "auto",
+    "__modelRunId": "20261124-194644.-training-consumption-19e03c"
+  },
+  "inputs": [
+    {
+      "path": "forecasting/data/KSRP_Campus/processed/consumption/data_hourly_test.csv",
+      "role": "test"
+    }
+  ]
+}

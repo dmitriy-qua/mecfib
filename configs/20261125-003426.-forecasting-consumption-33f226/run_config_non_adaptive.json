@@ -1,0 +1,233 @@
+{
+  "scenario": "Non-Adaptive",
+  "non_adaptive": true,
+  "seed": 46,
+  "code_sha256": "1bab7aa1aec75087",
+  "device": "cuda",
+  "csv_path": "forecasting/data/NEST_UMAR/processed/consumption/data_hourly_test.csv",
+  "model_dir": "runs/20261124-194646.-training-consumption-881b80",
+  "targets": [
+    "thermal_heating_kw",
+    "thermal_cooling_kw",
+    "dhw_kw",
+    "electric_demand_kw"
+  ],
+  "has_tft": false,
+  "sequence_length": 168,
+  "forecast_horizon": 24,
+  "stride_hours": 24,
+  "start_hour_offset": 0,
+  "n_windows": 721,
+  "n_retrains": 0,
+  "retrain_events": [],
+  "weights_history": [
+    {
+      "after_window": -1,
+      "event": "initial",
+      "weights": {
+        "thermal_heating_kw": [
+          0.1,
+          0.1,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.2,
+          0.2,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "thermal_cooling_kw": [
+          0.1,
+          0.1,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.4,
+          0.4,
+          0.45,
+          0.45,
+          0.45,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.55
+        ],
+        "dhw_kw": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4,
+          0.4
+        ],
+        "electric_demand_kw": [
+          0.1,
+          0.1,
+          0.15000000000000002,
+          0.15000000000000002,
+          0.2,
+          0.2,
+          0.25,
+          0.25,
+          0.30000000000000004,
+          0.30000000000000004,
+          0.35000000000000003,
+          0.4,
+          0.4,
+          0.4,
+          0.45,
+          0.45,
+          0.45,
+          0.5,
+          0.5,
+          0.5,
+          0.55,
+          0.55,
+          0.55,
+          0.6000000000000001
+        ]
+      }
+    }
+  ],
+  "effective_args": {
+    "lstm_model_name": "lstm_cnn_consumption",
+    "gbdt_model_prefix": "xgb_consumption",
+    "tft_model_prefix": "tft_consumption",
+    "model_base_dir": "runs/20261124-194646.-training-consumption-881b80",
+    "weights": {
+      "thermal_heating_kw": [
+        0.3,
+        0.7,
+        0.0
+      ],
+      "thermal_cooling_kw": [
+        0.3,
+        0.7,
+        0.0
+      ],
+      "dhw_kw": [
+        0.3,
+        0.7,
+        0.0
+      ],
+      "electric_demand_kw": [
+        0.3,
+        0.7,
+        0.0
+      ]
+    },
+    "use_horizon_weights": true,
+    "sequence_length": 168,
+    "forecast_horizon": 24,
+    "start_index": 168,
+    "non_adaptive": true,
+    "plot_interval": 25,
+    "save_plots": false,
+    "plots_dir": "plots",
+    "mae_threshold": 0.3203084191113803,
+    "rmse_threshold": 0.5750345363495841,
+    "mase_threshold": null,
+    "min_retrain_samples": 500,
+    "retrain_window": 720,
+    "evaluation_frequency": 30,
+    "max_retrains": 20,
+    "peak_weight_alpha": 0.5,
+    "peak_threshold": 0.3,
+    "loss_type": "huber",
+    "huber_delta": 0.15,
+    "under_weight_heating": 1.0,
+    "under_weight_other": 1.0,
+    "min_target_fraction": 0.02,
+    "base_health_window": 50,
+    "base_health_ratio": 6.0,
+    "naive_anchor_weights": {},
+    "per_target_mase_threshold": {},
+    "seed": 46,
+    "inactivity_gates": {
+      "dhw_kw": {
+        "lookback_hours": 48,
+        "threshold_kw": 0.005
+      },
+      "thermal_heating_kw": {
+        "lookback_hours": 24,
+        "threshold_kw": 0.05
+      },
+      "thermal_cooling_kw": {
+        "lookback_hours": 24,
+        "threshold_kw": 0.05
+      }
+    },
+    "training_hyperparams": {
+      "lstm_cnn": {
+        "dhw_kw": {
+          "min_nonzero_fraction": 0.1
+        }
+      },
+      "gbdt": {
+        "dhw_kw": {
+          "objective": "reg:tweedie",
+          "tweedie_variance_power": 1.5
+        }
+      }
+    },
+    "members": "lstm,gbdt",
+    "protocol": "clean",
+    "anchor_mode": "causal",
+    "retune_holdout_frac": 0.2,
+    "retrain_accept": true,
+    "weight_retune": true,
+    "gbdt_retrain_mode": "auto",
+    "weights_mode": "rolling",
+    "roll_window": 42,
+    "roll_min_windows": 14,
+    "roll_blocks": 0,
+    "weather_noise": 0.0,
+    "floor_source": "validation",
+    "trigger_mode": "scheduled",
+    "trigger_stat": "block_mean",
+    "threshold_factor": 1.5
+  }
+}
